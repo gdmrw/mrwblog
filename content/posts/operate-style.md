@@ -22,7 +22,7 @@ element.classList.remove('className')
 element.classList.toggle('className')
 ```
 
-example:
+Example:
 
 ```
 <!DOCTYPE html>
