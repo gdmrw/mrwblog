@@ -1,6 +1,6 @@
 ---
 title: Git classic workflow and merge conflict solution
-date: 2023-12-17
+date: 2023-11-17
 tags:
 - git
 ---

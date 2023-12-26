@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>nginx on Mr.W&#39;s Blog</title>
+    <link>https://examplesite.com/tags/nginx/</link>
+    <description>Recent content in nginx on Mr.W&#39;s Blog</description>
+    <image>
+      <title>Mr.W&#39;s Blog</title>
+      <url>https://examplesite.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://examplesite.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 21 Oct 2022 10:50:32 +0000</lastBuildDate>
+    <atom:link href="https://examplesite.com/tags/nginx/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Nginx pid error fix</title>
+      <link>https://examplesite.com/posts/nginx_error/</link>
+      <pubDate>Fri, 21 Oct 2022 10:50:32 +0000</pubDate>
+      <guid>https://examplesite.com/posts/nginx_error/</guid>
+      <description>If you use systemctl status nginx to check nginx status you may find a pid error appear on status panel. The words that appear may be :
+Can&amp;#39;t open PID file /run/nginx.pid (yet?) after start: Operation not permitted Or Can&amp;#39;t open PID file /var/run/nginx.pid (yet?) after start: No such file or directory This is becasue the pid file not generate before the nginx booted. The solution is to add following sentence into /usr/lib/systemd/system/nginx.</description>
+    </item>
+  </channel>
+</rss>

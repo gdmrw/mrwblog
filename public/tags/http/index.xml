@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>http on Mr.W&#39;s Blog</title>
+    <link>https://examplesite.com/tags/http/</link>
+    <description>Recent content in http on Mr.W&#39;s Blog</description>
+    <image>
+      <title>Mr.W&#39;s Blog</title>
+      <url>https://examplesite.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://examplesite.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 22 Oct 2022 23:36:11 +0000</lastBuildDate>
+    <atom:link href="https://examplesite.com/tags/http/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How Middleboxs Identify Proxy Traffics</title>
+      <link>https://examplesite.com/posts/middle_box/</link>
+      <pubDate>Sat, 22 Oct 2022 23:36:11 +0000</pubDate>
+      <guid>https://examplesite.com/posts/middle_box/</guid>
+      <description>Abstract There is no absolute safe disguise, all protocols have risks of detected.
+Common attack made by middle box Passive analysis (Traffic characteristic, PoC vulnerability) Usually use for plain text protocol or TLS handshake.
+Active analysis Usually use for Shadowsocks, V2Ray, TLS v1.3 (obtian svers&amp;rsquo;s SSL certificate)
+replay package
+Some obvious charecteristics of proxy traffic. Long connection Most HTTP traffic is short connection.
+bidireaction flow 99% of Web traffic(HTTP) is one-way flow, which is a group of request match a group of response, few website use websocket.</description>
+    </item>
+  </channel>
+</rss>

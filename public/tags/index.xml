@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Mr.W&#39;s Blog</title>
+    <link>https://examplesite.com/tags/</link>
+    <description>Recent content in Tags on Mr.W&#39;s Blog</description>
+    <image>
+      <title>Mr.W&#39;s Blog</title>
+      <url>https://examplesite.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://examplesite.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 17 Dec 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://examplesite.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>git</title>
+      <link>https://examplesite.com/tags/git/</link>
+      <pubDate>Sun, 17 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>https://examplesite.com/tags/git/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>HBS</title>
+      <link>https://examplesite.com/tags/hbs/</link>
+      <pubDate>Sat, 11 Mar 2023 23:19:05 +0000</pubDate>
+      <guid>https://examplesite.com/tags/hbs/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>mega</title>
+      <link>https://examplesite.com/tags/mega/</link>
+      <pubDate>Sat, 11 Mar 2023 23:19:05 +0000</pubDate>
+      <guid>https://examplesite.com/tags/mega/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>mega cmd</title>
+      <link>https://examplesite.com/tags/mega-cmd/</link>
+      <pubDate>Sat, 11 Mar 2023 23:19:05 +0000</pubDate>
+      <guid>https://examplesite.com/tags/mega-cmd/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>qnap nas</title>
+      <link>https://examplesite.com/tags/qnap-nas/</link>
+      <pubDate>Sat, 11 Mar 2023 23:19:05 +0000</pubDate>
+      <guid>https://examplesite.com/tags/qnap-nas/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>ddns</title>
+      <link>https://examplesite.com/tags/ddns/</link>
+      <pubDate>Wed, 08 Mar 2023 21:55:34 +0000</pubDate>
+      <guid>https://examplesite.com/tags/ddns/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>openwrt</title>
+      <link>https://examplesite.com/tags/openwrt/</link>
+      <pubDate>Wed, 08 Mar 2023 21:55:34 +0000</pubDate>
+      <guid>https://examplesite.com/tags/openwrt/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>http</title>
+      <link>https://examplesite.com/tags/http/</link>
+      <pubDate>Sat, 22 Oct 2022 23:36:11 +0000</pubDate>
+      <guid>https://examplesite.com/tags/http/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>tls</title>
+      <link>https://examplesite.com/tags/tls/</link>
+      <pubDate>Sat, 22 Oct 2022 23:36:11 +0000</pubDate>
+      <guid>https://examplesite.com/tags/tls/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>linux</title>
+      <link>https://examplesite.com/tags/linux/</link>
+      <pubDate>Fri, 21 Oct 2022 10:50:32 +0000</pubDate>
+      <guid>https://examplesite.com/tags/linux/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>nginx</title>
+      <link>https://examplesite.com/tags/nginx/</link>
+      <pubDate>Fri, 21 Oct 2022 10:50:32 +0000</pubDate>
+      <guid>https://examplesite.com/tags/nginx/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>shell</title>
+      <link>https://examplesite.com/tags/shell/</link>
+      <pubDate>Fri, 21 Oct 2022 10:50:32 +0000</pubDate>
+      <guid>https://examplesite.com/tags/shell/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
