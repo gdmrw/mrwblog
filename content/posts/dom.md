@@ -3,8 +3,6 @@ title: DOM -- Document Object Model
 date: 2023-12-25
 tags: 
 - javascript
-- css
-- html
 - web api
 ---
 ## DOM query

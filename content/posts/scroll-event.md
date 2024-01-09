@@ -2,10 +2,9 @@
 title: Scroll Event
 date: 2024-01-07
 showToc: true
+UseHugoToc: true
 tags: 
 - javascript
-- css
-- html
 - web api
 ---
 
@@ -45,7 +44,7 @@ document.getElementById('myElement').addEventListener('scroll', function() {
 
 ---
 
-> When using `scroll` evenet listener, always keep in mind to avoid extensive tasks inside the `scroll` event handler to prevent jank or sluggish scrolling. Besides, consider debouncing or throttling the event to improve performance and be mindful of accessibility implications, especially when changing layout or visibility of elements on scroll.
+> When using `scroll` event listener, always keep in mind to avoid extensive tasks inside the `scroll` event handler to prevent jank or sluggish scrolling. Besides, consider debouncing or throttling the event to improve performance and be mindful of accessibility implications, especially when changing layout or visibility of elements on scroll.
 
 In summary, the `scroll` event is a versatile tool in JavaScript for creating interactive and dynamic effects based on the user's scroll behavior. When used effectively and efficiently, it can greatly enhance the user experience on a web page.
 

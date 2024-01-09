@@ -1,7 +1,7 @@
 ---
 title: "My 1st post"
 date: 2023-12-15
-# weight: 1
+weight: 1
 # aliases: ["/first"]
 author: "Me"
 # author: ["Me", "You"] # multiple authors
