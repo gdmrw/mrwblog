@@ -15,9 +15,9 @@
     <atom:link href="http://localhost:1313/tags/java/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Spring Boot Software testing 1, Partitioning and Functioning testing</title>
-      <link>http://localhost:1313/posts/new-stuff/</link>
+      <link>http://localhost:1313/posts/springboottest1/</link>
       <pubDate>Sat, 30 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/new-stuff/</guid>
+      <guid>http://localhost:1313/posts/springboottest1/</guid>
       <description>Spring Boot is a project under the Spring Framework that simplifies developing, configuring, and deploying Spring-based applications. It promotes convention over configuration by offering pre-configured setups and auto-configuration based on project dependencies, eliminating much of the manual setup and configuration work. Spring Boot applications are stand-alone, containing an embedded web server for easy deployment as a single executable JAR. It offers opinionated defaults to reduce development effort, while still allowing for customization.</description>
     </item>
   </channel>

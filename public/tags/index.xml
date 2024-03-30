@@ -146,12 +146,5 @@
       <guid>http://localhost:1313/tags/shell/</guid>
       <description></description>
     </item>
-    <item>
-      <title>Acutator</title>
-      <link>http://localhost:1313/tags/acutator/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/acutator/</guid>
-      <description></description>
-    </item>
   </channel>
 </rss>
