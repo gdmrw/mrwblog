@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Html on Mr.W&#39;s Blog</title>
+    <link>http://localhost:1313/tags/html/</link>
+    <description>Recent content in Html on Mr.W&#39;s Blog</description>
+    <image>
+      <title>Mr.W&#39;s Blog</title>
+      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 30 Dec 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/html/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Event flow , capture, bubble and how to stop bubbling</title>
+      <link>http://localhost:1313/posts/event-flow-capture-bubble/</link>
+      <pubDate>Sat, 30 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/event-flow-capture-bubble/</guid>
+      <description>Event Bubbling in JavaScript Event capturing is an event handling mechanism in JavaScript, contrasting with event bubbling. During the capturing phase, an event starts at the root node (usually the document object) and propagates down the DOM tree to the target element, where the event actually took place.
+The process of event capturing is as follows:
+Capturing Phase: When an event occurs, it is first captured at the topmost node of the DOM tree, then propagates downwards, level by level, until it reaches the target element.</description>
+    </item>
+    <item>
+      <title>Timer</title>
+      <link>http://localhost:1313/posts/timer/</link>
+      <pubDate>Tue, 26 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/timer/</guid>
+      <description>Javascript timer function can make some code be excueted repeatedly over time.
+Syntax:
+// open setInterval(function,interaval-time) // close let t = setInterval(function,interaval-time) clearInterval(t) t: variable
+interaval-time unit: ms
+Example:
+&amp;lt;body&amp;gt; &amp;lt;button class=&amp;#34;btn&amp;#34; disabled&amp;gt;aggree(5)&amp;lt;/button&amp;gt; &amp;lt;script&amp;gt; const btn = document.querySelector(&amp;#39;.btn&amp;#39;) let i = 5 let timer = setInterval(function(){ i-- btn.innerHTML = `aggree(${i})` if (i === 0){ clearInterval(timer) btn.disabled = false btn.innerHTML = &amp;#39;aggree&amp;#39; } },1000) &amp;lt;/script&amp;gt; &amp;lt;/body&amp;gt; </description>
+    </item>
+    <item>
+      <title>Control CSS using classList</title>
+      <link>http://localhost:1313/posts/operate-style/</link>
+      <pubDate>Mon, 25 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/operate-style/</guid>
+      <description>ClassList can help reduce the redundancy of .style method and resolve the ClassName overwrite risk.
+Sytax:
+// add a class element.classList.add(&amp;#39;className&amp;#39;) // delete a class element.classList.remove(&amp;#39;className&amp;#39;) // switch a class element.classList.toggle(&amp;#39;className&amp;#39;) Example:
+&amp;lt;!DOCTYPE html&amp;gt; &amp;lt;html lang=&amp;#34;en&amp;#34;&amp;gt; &amp;lt;head&amp;gt; &amp;lt;meta charset=&amp;#34;UTF-8&amp;#34;&amp;gt; &amp;lt;meta name=&amp;#34;viewport&amp;#34; content=&amp;#34;width=device-width, initial-scale=1.0&amp;#34;&amp;gt; &amp;lt;title&amp;gt;Document&amp;lt;/title&amp;gt; &amp;lt;style&amp;gt; .box { width: 200px; height: 200px; color: #333; } .active { color: red; background-color: pink; } &amp;lt;/style&amp;gt; &amp;lt;/head&amp;gt; &amp;lt;body&amp;gt; &amp;lt;div class=&amp;#34;box&amp;#34;&amp;gt;text&amp;lt;/div&amp;gt; &amp;lt;script&amp;gt; //get element const box = document.</description>
+    </item>
+  </channel>
+</rss>

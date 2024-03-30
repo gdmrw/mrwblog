@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>ddns on Mr.W&#39;s Blog</title>
-    <link>https://examplesite.com/tags/ddns/</link>
-    <description>Recent content in ddns on Mr.W&#39;s Blog</description>
+    <title>Ddns on Mr.W&#39;s Blog</title>
+    <link>http://localhost:1313/tags/ddns/</link>
+    <description>Recent content in Ddns on Mr.W&#39;s Blog</description>
     <image>
       <title>Mr.W&#39;s Blog</title>
-      <url>https://examplesite.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://examplesite.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Wed, 08 Mar 2023 21:55:34 +0000</lastBuildDate>
-    <atom:link href="https://examplesite.com/tags/ddns/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/ddns/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How to make QNAP NAS DDNS functional while using Tproxy</title>
-      <link>https://examplesite.com/posts/qnap_ddns/</link>
+      <link>http://localhost:1313/posts/qnap_ddns/</link>
       <pubDate>Wed, 08 Mar 2023 21:55:34 +0000</pubDate>
-      <guid>https://examplesite.com/posts/qnap_ddns/</guid>
+      <guid>http://localhost:1313/posts/qnap_ddns/</guid>
       <description>Prerequisite: Before proceeding, it is essential to have a static public IP. If you do not already have one, kindly reach out to your ISP for assistance. Please note that if you are unfamiliar with QNAP NAS, this article may not cater to your requirements.
 For several reasons, you cannot connect to many cloud storage server like google drive in China, which make it difficult to fully function the HBS3(Hybrid Backup Sync).</description>
     </item>
