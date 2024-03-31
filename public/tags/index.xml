@@ -2,148 +2,148 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on Mr.W&#39;s Blog</title>
-    <link>https://examplesite.com/tags/</link>
+    <link>https://www.mrwblog.com/tags/</link>
     <description>Recent content in Tags on Mr.W&#39;s Blog</description>
     <image>
       <title>Mr.W&#39;s Blog</title>
-      <url>https://examplesite.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://examplesite.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://www.mrwblog.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://www.mrwblog.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Sun, 31 Mar 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://examplesite.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.mrwblog.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Actuator</title>
-      <link>https://examplesite.com/tags/actuator/</link>
+      <link>https://www.mrwblog.com/tags/actuator/</link>
       <pubDate>Sun, 31 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>https://examplesite.com/tags/actuator/</guid>
+      <guid>https://www.mrwblog.com/tags/actuator/</guid>
       <description></description>
     </item>
     <item>
       <title>Java</title>
-      <link>https://examplesite.com/tags/java/</link>
+      <link>https://www.mrwblog.com/tags/java/</link>
       <pubDate>Sun, 31 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>https://examplesite.com/tags/java/</guid>
+      <guid>https://www.mrwblog.com/tags/java/</guid>
       <description></description>
     </item>
     <item>
       <title>Spring Boot</title>
-      <link>https://examplesite.com/tags/spring-boot/</link>
+      <link>https://www.mrwblog.com/tags/spring-boot/</link>
       <pubDate>Sun, 31 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>https://examplesite.com/tags/spring-boot/</guid>
+      <guid>https://www.mrwblog.com/tags/spring-boot/</guid>
       <description></description>
     </item>
     <item>
       <title>Javascript</title>
-      <link>https://examplesite.com/tags/javascript/</link>
+      <link>https://www.mrwblog.com/tags/javascript/</link>
       <pubDate>Mon, 08 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://examplesite.com/tags/javascript/</guid>
+      <guid>https://www.mrwblog.com/tags/javascript/</guid>
       <description></description>
     </item>
     <item>
       <title>Web Api</title>
-      <link>https://examplesite.com/tags/web-api/</link>
+      <link>https://www.mrwblog.com/tags/web-api/</link>
       <pubDate>Mon, 08 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://examplesite.com/tags/web-api/</guid>
+      <guid>https://www.mrwblog.com/tags/web-api/</guid>
       <description></description>
     </item>
     <item>
       <title>Css</title>
-      <link>https://examplesite.com/tags/css/</link>
+      <link>https://www.mrwblog.com/tags/css/</link>
       <pubDate>Sat, 30 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>https://examplesite.com/tags/css/</guid>
+      <guid>https://www.mrwblog.com/tags/css/</guid>
       <description></description>
     </item>
     <item>
       <title>Html</title>
-      <link>https://examplesite.com/tags/html/</link>
+      <link>https://www.mrwblog.com/tags/html/</link>
       <pubDate>Sat, 30 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>https://examplesite.com/tags/html/</guid>
+      <guid>https://www.mrwblog.com/tags/html/</guid>
       <description></description>
     </item>
     <item>
       <title>Git</title>
-      <link>https://examplesite.com/tags/git/</link>
+      <link>https://www.mrwblog.com/tags/git/</link>
       <pubDate>Fri, 17 Nov 2023 00:00:00 +0000</pubDate>
-      <guid>https://examplesite.com/tags/git/</guid>
+      <guid>https://www.mrwblog.com/tags/git/</guid>
       <description></description>
     </item>
     <item>
       <title>HBS</title>
-      <link>https://examplesite.com/tags/hbs/</link>
+      <link>https://www.mrwblog.com/tags/hbs/</link>
       <pubDate>Sat, 11 Mar 2023 23:19:05 +0000</pubDate>
-      <guid>https://examplesite.com/tags/hbs/</guid>
+      <guid>https://www.mrwblog.com/tags/hbs/</guid>
       <description></description>
     </item>
     <item>
       <title>Mega</title>
-      <link>https://examplesite.com/tags/mega/</link>
+      <link>https://www.mrwblog.com/tags/mega/</link>
       <pubDate>Sat, 11 Mar 2023 23:19:05 +0000</pubDate>
-      <guid>https://examplesite.com/tags/mega/</guid>
+      <guid>https://www.mrwblog.com/tags/mega/</guid>
       <description></description>
     </item>
     <item>
       <title>Mega Cmd</title>
-      <link>https://examplesite.com/tags/mega-cmd/</link>
+      <link>https://www.mrwblog.com/tags/mega-cmd/</link>
       <pubDate>Sat, 11 Mar 2023 23:19:05 +0000</pubDate>
-      <guid>https://examplesite.com/tags/mega-cmd/</guid>
+      <guid>https://www.mrwblog.com/tags/mega-cmd/</guid>
       <description></description>
     </item>
     <item>
       <title>Qnap Nas</title>
-      <link>https://examplesite.com/tags/qnap-nas/</link>
+      <link>https://www.mrwblog.com/tags/qnap-nas/</link>
       <pubDate>Sat, 11 Mar 2023 23:19:05 +0000</pubDate>
-      <guid>https://examplesite.com/tags/qnap-nas/</guid>
+      <guid>https://www.mrwblog.com/tags/qnap-nas/</guid>
       <description></description>
     </item>
     <item>
       <title>Ddns</title>
-      <link>https://examplesite.com/tags/ddns/</link>
+      <link>https://www.mrwblog.com/tags/ddns/</link>
       <pubDate>Wed, 08 Mar 2023 21:55:34 +0000</pubDate>
-      <guid>https://examplesite.com/tags/ddns/</guid>
+      <guid>https://www.mrwblog.com/tags/ddns/</guid>
       <description></description>
     </item>
     <item>
       <title>Openwrt</title>
-      <link>https://examplesite.com/tags/openwrt/</link>
+      <link>https://www.mrwblog.com/tags/openwrt/</link>
       <pubDate>Wed, 08 Mar 2023 21:55:34 +0000</pubDate>
-      <guid>https://examplesite.com/tags/openwrt/</guid>
+      <guid>https://www.mrwblog.com/tags/openwrt/</guid>
       <description></description>
     </item>
     <item>
       <title>Http</title>
-      <link>https://examplesite.com/tags/http/</link>
+      <link>https://www.mrwblog.com/tags/http/</link>
       <pubDate>Sat, 22 Oct 2022 23:36:11 +0000</pubDate>
-      <guid>https://examplesite.com/tags/http/</guid>
+      <guid>https://www.mrwblog.com/tags/http/</guid>
       <description></description>
     </item>
     <item>
       <title>Tls</title>
-      <link>https://examplesite.com/tags/tls/</link>
+      <link>https://www.mrwblog.com/tags/tls/</link>
       <pubDate>Sat, 22 Oct 2022 23:36:11 +0000</pubDate>
-      <guid>https://examplesite.com/tags/tls/</guid>
+      <guid>https://www.mrwblog.com/tags/tls/</guid>
       <description></description>
     </item>
     <item>
       <title>Linux</title>
-      <link>https://examplesite.com/tags/linux/</link>
+      <link>https://www.mrwblog.com/tags/linux/</link>
       <pubDate>Fri, 21 Oct 2022 10:50:32 +0000</pubDate>
-      <guid>https://examplesite.com/tags/linux/</guid>
+      <guid>https://www.mrwblog.com/tags/linux/</guid>
       <description></description>
     </item>
     <item>
       <title>Nginx</title>
-      <link>https://examplesite.com/tags/nginx/</link>
+      <link>https://www.mrwblog.com/tags/nginx/</link>
       <pubDate>Fri, 21 Oct 2022 10:50:32 +0000</pubDate>
-      <guid>https://examplesite.com/tags/nginx/</guid>
+      <guid>https://www.mrwblog.com/tags/nginx/</guid>
       <description></description>
     </item>
     <item>
       <title>Shell</title>
-      <link>https://examplesite.com/tags/shell/</link>
+      <link>https://www.mrwblog.com/tags/shell/</link>
       <pubDate>Fri, 21 Oct 2022 10:50:32 +0000</pubDate>
-      <guid>https://examplesite.com/tags/shell/</guid>
+      <guid>https://www.mrwblog.com/tags/shell/</guid>
       <description></description>
     </item>
   </channel>

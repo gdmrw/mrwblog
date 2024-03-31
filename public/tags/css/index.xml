@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Css on Mr.W&#39;s Blog</title>
-    <link>https://examplesite.com/tags/css/</link>
+    <link>https://www.mrwblog.com/tags/css/</link>
     <description>Recent content in Css on Mr.W&#39;s Blog</description>
     <image>
       <title>Mr.W&#39;s Blog</title>
-      <url>https://examplesite.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://examplesite.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://www.mrwblog.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://www.mrwblog.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Sat, 30 Dec 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://examplesite.com/tags/css/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.mrwblog.com/tags/css/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Event flow , capture, bubble and how to stop bubbling</title>
-      <link>https://examplesite.com/posts/event-flow-capture-bubble/</link>
+      <link>https://www.mrwblog.com/posts/event-flow-capture-bubble/</link>
       <pubDate>Sat, 30 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>https://examplesite.com/posts/event-flow-capture-bubble/</guid>
+      <guid>https://www.mrwblog.com/posts/event-flow-capture-bubble/</guid>
       <description>Event Bubbling in JavaScript Event capturing is an event handling mechanism in JavaScript, contrasting with event bubbling. During the capturing phase, an event starts at the root node (usually the document object) and propagates down the DOM tree to the target element, where the event actually took place.
 The process of event capturing is as follows:
 Capturing Phase: When an event occurs, it is first captured at the topmost node of the DOM tree, then propagates downwards, level by level, until it reaches the target element.</description>
     </item>
     <item>
       <title>Timer</title>
-      <link>https://examplesite.com/posts/timer/</link>
+      <link>https://www.mrwblog.com/posts/timer/</link>
       <pubDate>Tue, 26 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>https://examplesite.com/posts/timer/</guid>
+      <guid>https://www.mrwblog.com/posts/timer/</guid>
       <description>Javascript timer function can make some code be excueted repeatedly over time.
 Syntax:
 // open setInterval(function,interaval-time) // close let t = setInterval(function,interaval-time) clearInterval(t) t: variable
@@ -36,9 +36,9 @@ Example:
     </item>
     <item>
       <title>Control CSS using classList</title>
-      <link>https://examplesite.com/posts/operate-style/</link>
+      <link>https://www.mrwblog.com/posts/operate-style/</link>
       <pubDate>Mon, 25 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>https://examplesite.com/posts/operate-style/</guid>
+      <guid>https://www.mrwblog.com/posts/operate-style/</guid>
       <description>ClassList can help reduce the redundancy of .style method and resolve the ClassName overwrite risk.
 Sytax:
 // add a class element.classList.add(&amp;#39;className&amp;#39;) // delete a class element.classList.remove(&amp;#39;className&amp;#39;) // switch a class element.classList.toggle(&amp;#39;className&amp;#39;) Example:

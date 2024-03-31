@@ -2,64 +2,64 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Mr.W&#39;s Blog</title>
-    <link>https://examplesite.com/</link>
+    <link>https://www.mrwblog.com/</link>
     <description>Recent content on Mr.W&#39;s Blog</description>
     <image>
       <title>Mr.W&#39;s Blog</title>
-      <url>https://examplesite.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://examplesite.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://www.mrwblog.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://www.mrwblog.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Sun, 31 Mar 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://examplesite.com/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.mrwblog.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Spring Boot Software testing 2 - Actuator - Finite State Machine</title>
-      <link>https://examplesite.com/posts/springboottest2/</link>
+      <link>https://www.mrwblog.com/posts/springboottest2/</link>
       <pubDate>Sun, 31 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>https://examplesite.com/posts/springboottest2/</guid>
+      <guid>https://www.mrwblog.com/posts/springboottest2/</guid>
       <description>Finite State machine Finite models are essential in testing for simplifying complex systems, allowing exhaustive testing, and facilitating automated test case generation. They offer a clear way to represent systems as finite state machines, making it possible to explore all possible states and transitions. This approach is critical for ensuring systems behave as expected under every scenario, especially in critical applications where failure is unacceptable.
 Key benefits include:
 Simplification: Reducing complex systems to manageable models.</description>
     </item>
     <item>
       <title>Spring Boot Software testing 1, Partitioning and Functioning testing</title>
-      <link>https://examplesite.com/posts/springboottest1/</link>
+      <link>https://www.mrwblog.com/posts/springboottest1/</link>
       <pubDate>Sat, 30 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>https://examplesite.com/posts/springboottest1/</guid>
+      <guid>https://www.mrwblog.com/posts/springboottest1/</guid>
       <description>Spring Boot is a project under the Spring Framework that simplifies developing, configuring, and deploying Spring-based applications. It promotes convention over configuration by offering pre-configured setups and auto-configuration based on project dependencies, eliminating much of the manual setup and configuration work. Spring Boot applications are stand-alone, containing an embedded web server for easy deployment as a single executable JAR. It offers opinionated defaults to reduce development effort, while still allowing for customization.</description>
     </item>
     <item>
       <title>Size measurement parameters -- client, offset and scroll</title>
-      <link>https://examplesite.com/posts/scroll-offset-client/</link>
+      <link>https://www.mrwblog.com/posts/scroll-offset-client/</link>
       <pubDate>Mon, 08 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://examplesite.com/posts/scroll-offset-client/</guid>
+      <guid>https://www.mrwblog.com/posts/scroll-offset-client/</guid>
       <description>Prerequisite: You need to familiar with the box model
 Understanding the differences between clientHeight/clientLeft, offsetHeight/offsetLeft, and scrollTop/scrollLeft in the context of the Document Object Model (DOM) is crucial for effective web design and development. These properties are used to measure different aspects of elements&amp;rsquo; size and position in relation to their content, padding, border, and scroll position.
 Client clientHeight and clientLeft will give you the height and width of an element including padding.</description>
     </item>
     <item>
       <title>Scroll Event</title>
-      <link>https://examplesite.com/posts/scroll-event/</link>
+      <link>https://www.mrwblog.com/posts/scroll-event/</link>
       <pubDate>Sun, 07 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://examplesite.com/posts/scroll-event/</guid>
+      <guid>https://www.mrwblog.com/posts/scroll-event/</guid>
       <description>The scroll event in JavaScript is an important event that is triggered whenever an element or the window is scrolled. This event is particularly useful for creating dynamic effects based on the scroll position, such as parallax animations, infinite scrolling, or showing/hiding navigation bars. Here&amp;rsquo;s an overview of the scroll event:
 1. How it Works: The scroll event fires when the document view or an element has been scrolled. It applies to any scrollable element, including the window.</description>
     </item>
     <item>
       <title>Event flow , capture, bubble and how to stop bubbling</title>
-      <link>https://examplesite.com/posts/event-flow-capture-bubble/</link>
+      <link>https://www.mrwblog.com/posts/event-flow-capture-bubble/</link>
       <pubDate>Sat, 30 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>https://examplesite.com/posts/event-flow-capture-bubble/</guid>
+      <guid>https://www.mrwblog.com/posts/event-flow-capture-bubble/</guid>
       <description>Event Bubbling in JavaScript Event capturing is an event handling mechanism in JavaScript, contrasting with event bubbling. During the capturing phase, an event starts at the root node (usually the document object) and propagates down the DOM tree to the target element, where the event actually took place.
 The process of event capturing is as follows:
 Capturing Phase: When an event occurs, it is first captured at the topmost node of the DOM tree, then propagates downwards, level by level, until it reaches the target element.</description>
     </item>
     <item>
       <title>Timer</title>
-      <link>https://examplesite.com/posts/timer/</link>
+      <link>https://www.mrwblog.com/posts/timer/</link>
       <pubDate>Tue, 26 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>https://examplesite.com/posts/timer/</guid>
+      <guid>https://www.mrwblog.com/posts/timer/</guid>
       <description>Javascript timer function can make some code be excueted repeatedly over time.
 Syntax:
 // open setInterval(function,interaval-time) // close let t = setInterval(function,interaval-time) clearInterval(t) t: variable
@@ -69,9 +69,9 @@ Example:
     </item>
     <item>
       <title>Control CSS using classList</title>
-      <link>https://examplesite.com/posts/operate-style/</link>
+      <link>https://www.mrwblog.com/posts/operate-style/</link>
       <pubDate>Mon, 25 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>https://examplesite.com/posts/operate-style/</guid>
+      <guid>https://www.mrwblog.com/posts/operate-style/</guid>
       <description>ClassList can help reduce the redundancy of .style method and resolve the ClassName overwrite risk.
 Sytax:
 // add a class element.classList.add(&amp;#39;className&amp;#39;) // delete a class element.classList.remove(&amp;#39;className&amp;#39;) // switch a class element.classList.toggle(&amp;#39;className&amp;#39;) Example:
@@ -79,39 +79,39 @@ Sytax:
     </item>
     <item>
       <title>DOM -- Document Object Model</title>
-      <link>https://examplesite.com/posts/dom/</link>
+      <link>https://www.mrwblog.com/posts/dom/</link>
       <pubDate>Mon, 25 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>https://examplesite.com/posts/dom/</guid>
+      <guid>https://www.mrwblog.com/posts/dom/</guid>
       <description>DOM query Slect first match element document.querySelector(&amp;#39;css selector&amp;#39;) Slect all match element document.querySelectorAll(&amp;#39;css selector&amp;#39;) return is fake array which no work with push and pop method
 Modification using DOM modify text content &amp;lt;body&amp;gt; &amp;lt;div class=&amp;#34;box&amp;#34;&amp;gt;content&amp;lt;/div&amp;gt; &amp;lt;script&amp;gt; const box = document.querySelector(&amp;#39;.box&amp;#39;) box.innerText = &amp;#39;content changed&amp;#39; box.innerHTML = &amp;#39;&amp;lt;strong&amp;gt;content changed&amp;lt;/strong&amp;gt;&amp;#39; &amp;lt;/script&amp;gt; &amp;lt;/body&amp;gt; innerText method will not parse tags, exp: &amp;lt;strong&amp;gt;hello&amp;lt;/strong&amp;gt; will return &amp;lt;strong&amp;gt;hello&amp;lt;/strong&amp;gt; rather hello</description>
     </item>
     <item>
       <title>Git classic workflow and merge conflict solution</title>
-      <link>https://examplesite.com/posts/git-workflow-conflict/</link>
+      <link>https://www.mrwblog.com/posts/git-workflow-conflict/</link>
       <pubDate>Fri, 17 Nov 2023 00:00:00 +0000</pubDate>
-      <guid>https://examplesite.com/posts/git-workflow-conflict/</guid>
+      <guid>https://www.mrwblog.com/posts/git-workflow-conflict/</guid>
       <description>Mearge conflict resolution: Edit the confilct file manually and then commit to branch</description>
     </item>
     <item>
       <title>How to enter QNAP NAS Mega CMD</title>
-      <link>https://examplesite.com/posts/megacmd/</link>
+      <link>https://www.mrwblog.com/posts/megacmd/</link>
       <pubDate>Sat, 11 Mar 2023 23:19:05 +0000</pubDate>
-      <guid>https://examplesite.com/posts/megacmd/</guid>
+      <guid>https://www.mrwblog.com/posts/megacmd/</guid>
       <description>Mega CMD is an software that provide similar function of QNAP HBS, but I don&amp;rsquo;t know why they can&amp;rsquo;t just integrated their function into HBS. And it is a command line system, though I&amp;rsquo;m not afraid of command but it truly increase the inconvenience for those who just want to make a backup. Most seriously, the way to enter the cmd window won&amp;rsquo;t show up on their readme.md but only in the introduction of the app store, with an very blurry picture.</description>
     </item>
     <item>
       <title>How to make QNAP NAS DDNS functional while using Tproxy</title>
-      <link>https://examplesite.com/posts/qnap_ddns/</link>
+      <link>https://www.mrwblog.com/posts/qnap_ddns/</link>
       <pubDate>Wed, 08 Mar 2023 21:55:34 +0000</pubDate>
-      <guid>https://examplesite.com/posts/qnap_ddns/</guid>
+      <guid>https://www.mrwblog.com/posts/qnap_ddns/</guid>
       <description>Prerequisite: Before proceeding, it is essential to have a static public IP. If you do not already have one, kindly reach out to your ISP for assistance. Please note that if you are unfamiliar with QNAP NAS, this article may not cater to your requirements.
 For several reasons, you cannot connect to many cloud storage server like google drive in China, which make it difficult to fully function the HBS3(Hybrid Backup Sync).</description>
     </item>
     <item>
       <title>How Middleboxs Identify Proxy Traffics</title>
-      <link>https://examplesite.com/posts/middle_box/</link>
+      <link>https://www.mrwblog.com/posts/middle_box/</link>
       <pubDate>Sat, 22 Oct 2022 23:36:11 +0000</pubDate>
-      <guid>https://examplesite.com/posts/middle_box/</guid>
+      <guid>https://www.mrwblog.com/posts/middle_box/</guid>
       <description>Abstract There is no absolute safe disguise, all protocols have risks of detected.
 Common attack made by middle box Passive analysis (Traffic characteristic, PoC vulnerability) Usually use for plain text protocol or TLS handshake.
 Active analysis Usually use for Shadowsocks, V2Ray, TLS v1.3 (obtian svers&amp;rsquo;s SSL certificate)
@@ -121,9 +121,9 @@ bidireaction flow 99% of Web traffic(HTTP) is one-way flow, which is a group of 
     </item>
     <item>
       <title>Nginx pid error fix</title>
-      <link>https://examplesite.com/posts/nginx_error/</link>
+      <link>https://www.mrwblog.com/posts/nginx_error/</link>
       <pubDate>Fri, 21 Oct 2022 10:50:32 +0000</pubDate>
-      <guid>https://examplesite.com/posts/nginx_error/</guid>
+      <guid>https://www.mrwblog.com/posts/nginx_error/</guid>
       <description>If you use systemctl status nginx to check nginx status you may find a pid error appear on status panel. The words that appear may be :
 Can&amp;#39;t open PID file /run/nginx.pid (yet?) after start: Operation not permitted Or Can&amp;#39;t open PID file /var/run/nginx.pid (yet?) after start: No such file or directory This is becasue the pid file not generate before the nginx booted. The solution is to add following sentence into /usr/lib/systemd/system/nginx.</description>
     </item>
