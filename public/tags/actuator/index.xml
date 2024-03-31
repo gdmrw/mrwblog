@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Actuator on Mr.W&#39;s Blog</title>
-    <link>http://localhost:1313/tags/actuator/</link>
+    <link>https://examplesite.com/tags/actuator/</link>
     <description>Recent content in Actuator on Mr.W&#39;s Blog</description>
     <image>
       <title>Mr.W&#39;s Blog</title>
-      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://examplesite.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://examplesite.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Sun, 31 Mar 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/actuator/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://examplesite.com/tags/actuator/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Spring Boot Software testing 2 - Actuator - Finite State Machine</title>
-      <link>http://localhost:1313/posts/springboottest2/</link>
+      <link>https://examplesite.com/posts/springboottest2/</link>
       <pubDate>Sun, 31 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/springboottest2/</guid>
+      <guid>https://examplesite.com/posts/springboottest2/</guid>
       <description>Finite State machine Finite models are essential in testing for simplifying complex systems, allowing exhaustive testing, and facilitating automated test case generation. They offer a clear way to represent systems as finite state machines, making it possible to explore all possible states and transitions. This approach is critical for ensuring systems behave as expected under every scenario, especially in critical applications where failure is unacceptable.
 Key benefits include:
 Simplification: Reducing complex systems to manageable models.</description>
     </item>
     <item>
       <title>Spring Boot Software testing 1, Partitioning and Functioning testing</title>
-      <link>http://localhost:1313/posts/springboottest1/</link>
+      <link>https://examplesite.com/posts/springboottest1/</link>
       <pubDate>Sat, 30 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/springboottest1/</guid>
+      <guid>https://examplesite.com/posts/springboottest1/</guid>
       <description>Spring Boot is a project under the Spring Framework that simplifies developing, configuring, and deploying Spring-based applications. It promotes convention over configuration by offering pre-configured setups and auto-configuration based on project dependencies, eliminating much of the manual setup and configuration work. Spring Boot applications are stand-alone, containing an embedded web server for easy deployment as a single executable JAR. It offers opinionated defaults to reduce development effort, while still allowing for customization.</description>
     </item>
   </channel>
