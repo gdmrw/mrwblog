@@ -2,38 +2,47 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Spring Boot on Mr.W&#39;s Blog</title>
-    <link>http://localhost:1313/tags/spring-boot/</link>
+    <link>https://www.mrwblog.com/tags/spring-boot/</link>
     <description>Recent content in Spring Boot on Mr.W&#39;s Blog</description>
     <image>
       <title>Mr.W&#39;s Blog</title>
-      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://www.mrwblog.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://www.mrwblog.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 01 Apr 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/spring-boot/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 01 Apr 2024 13:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.mrwblog.com/tags/spring-boot/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Spring Boot Software Testing 4 - Continuous Integration</title>
+      <link>https://www.mrwblog.com/posts/springboottest4/</link>
+      <pubDate>Mon, 01 Apr 2024 13:00:00 +0000</pubDate>
+      <guid>https://www.mrwblog.com/posts/springboottest4/</guid>
+      <description>Continuous Integration Continuous Integration (CI) is a software development practice where developers frequently merge their code changes into a central repository, preferably multiple times a day. Each merge triggers an automated build and testing process, which helps in identifying and addressing integration errors as quickly as possible. The primary purpose of CI is to improve software quality and accelerate the development process.
+Key aspects of Continuous Integration include:
+Automated Building and Testing: Automated tools are used to compile the code and run tests every time changes are integrated.</description>
+    </item>
     <item>
       <title>Spring Boot Software Testing 3 - White Box Testing and Coverage</title>
-      <link>http://localhost:1313/posts/springboottest3/</link>
+      <link>https://www.mrwblog.com/posts/springboottest3/</link>
       <pubDate>Mon, 01 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/springboottest3/</guid>
+      <guid>https://www.mrwblog.com/posts/springboottest3/</guid>
       <description>White Box Testing and Coverage Structural testing, often referred to as white-box testing, is a rigorous methodology for evaluating the internal workings of a software application. This technique delves into the application&amp;rsquo;s source code, architecture, and design, offering a detailed view of its internal pathways. Unlike black-box testing, which assesses the software&amp;rsquo;s external functionality without regard to its internal mechanisms, structural testing demands an intimate understanding of the codebase. This approach allows testers to meticulously examine execution paths, logic flows, and the outcomes of various code segments.</description>
     </item>
     <item>
       <title>Spring Boot Software Testing 2 - Actuator - Finite State Machine</title>
-      <link>http://localhost:1313/posts/springboottest2/</link>
+      <link>https://www.mrwblog.com/posts/springboottest2/</link>
       <pubDate>Sun, 31 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/springboottest2/</guid>
+      <guid>https://www.mrwblog.com/posts/springboottest2/</guid>
       <description>Finite State machine Finite models are essential in testing for simplifying complex systems, allowing exhaustive testing, and facilitating automated test case generation. They offer a clear way to represent systems as finite state machines, making it possible to explore all possible states and transitions. This approach is critical for ensuring systems behave as expected under every scenario, especially in critical applications where failure is unacceptable.
 Key benefits include:
 Simplification: Reducing complex systems to manageable models.</description>
     </item>
     <item>
       <title>Spring Boot Software Testing 1, Partitioning and Functioning testing</title>
-      <link>http://localhost:1313/posts/springboottest1/</link>
+      <link>https://www.mrwblog.com/posts/springboottest1/</link>
       <pubDate>Sat, 30 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/springboottest1/</guid>
+      <guid>https://www.mrwblog.com/posts/springboottest1/</guid>
       <description>Spring Boot is a project under the Spring Framework that simplifies developing, configuring, and deploying Spring-based applications. It promotes convention over configuration by offering pre-configured setups and auto-configuration based on project dependencies, eliminating much of the manual setup and configuration work. Spring Boot applications are stand-alone, containing an embedded web server for easy deployment as a single executable JAR. It offers opinionated defaults to reduce development effort, while still allowing for customization.</description>
     </item>
   </channel>
