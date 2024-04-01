@@ -8,12 +8,12 @@ tags:
 ## DOM query
 
 ### Slect first match element
-```
+``` javascript
 document.querySelector('css selector')
 ```
 
 ### Slect all match element
-```
+``` javascript
 document.querySelectorAll('css selector')
 ```
 
@@ -23,7 +23,7 @@ document.querySelectorAll('css selector')
 ## Modification using DOM
 
 ### modify text content
-```
+``` html
 <body>
     <div class="box">content</div>
     <script>

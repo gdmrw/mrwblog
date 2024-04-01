@@ -1,5 +1,5 @@
 ---
-title: Spring Boot Software testing 2 - Actuator - Finite State Machine
+title: Spring Boot Software Testing 2 - Actuator - Finite State Machine
 date: 2024-03-31
 showToc: true
 UseHugoToc: false

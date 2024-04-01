@@ -8,11 +8,10 @@ tags:
 - web api
 ---
 
-Javascript timer function can make some code be excueted repeatedly over time. 
+Javascript timer function can make some code be excueted repeatedly over time.
 
 Syntax: 
-
-```
+``` javascript
 // open
 setInterval(function,interaval-time)
 // close
@@ -28,7 +27,7 @@ clearInterval(t)
 
 Example: 
 
-```
+``` html
 <body>
     <button class="btn" disabled>aggree(5)</button>
     <script>

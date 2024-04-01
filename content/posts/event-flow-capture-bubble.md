@@ -25,7 +25,7 @@ The process of event capturing is as follows:
 When adding event listeners, you can specify whether the listener is triggered during the capturing or bubbling phase. This is controlled by the third parameter of the `addEventListener` method. If this parameter is `true`, the listener is triggered during the capturing phase; if `false` (or omitted), it is triggered during the bubbling phase.
 
 for example:
-```
+``` html
 <body>
     <div class="father">
         <div class="son"></div>
@@ -62,7 +62,7 @@ Event bubbling can be stopped by calling the `stopPropagation()` method on the e
 
 for example:
 
-```
+``` html
 <!DOCTYPE html>
 <html lang="en">
 <head>

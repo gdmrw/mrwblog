@@ -1,5 +1,5 @@
 ---
-title: Spring Boot Software testing 1, Partitioning and Functioning testing
+title: Spring Boot Software Testing 1, Partitioning and Functioning testing
 date: 2024-03-30
 showToc: true
 UseHugoToc: false
