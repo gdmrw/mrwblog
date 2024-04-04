@@ -11,8 +11,27 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 01 Apr 2024 13:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 04 Apr 2024 13:00:00 +0000</lastBuildDate>
     <atom:link href="https://www.mrwblog.com/tags/spring-boot/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Spring Boot Software Testing 6 - Static Analyzers</title>
+      <link>https://www.mrwblog.com/posts/springboottest6/</link>
+      <pubDate>Thu, 04 Apr 2024 13:00:00 +0000</pubDate>
+      <guid>https://www.mrwblog.com/posts/springboottest6/</guid>
+      <description>Static Analyzers Static analysis tools are essential in software development, focusing on improving code quality, identifying bugs, and ensuring adherence to coding standards without executing the code. They serve multiple purposes:
+Code Quality: Enhance code readability, maintainability, and efficiency.
+Bug Detection: Identify and fix errors early in the development process.
+Security: Detect potential security vulnerabilities.
+Performance: Highlight inefficient code patterns for optimization. These tools are used throughout the development lifecycle, particularly in:</description>
+    </item>
+    <item>
+      <title>Spring Boot Software Testing 5 - Testable Design and Mocking</title>
+      <link>https://www.mrwblog.com/posts/springboottest5/</link>
+      <pubDate>Thu, 04 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.mrwblog.com/posts/springboottest5/</guid>
+      <description>Testable Design and Mocking What is testable design, and what kinds of design in java are testable?
+In Java, achieving a testable design is about adhering to principles and practices that minimize coupling, maximize cohesion, and facilitate isolation of components for testing. It involves strategic use of design patterns, architectural decisions that favor testability, and leveraging tools and frameworks that support automated testing. This approach not only makes your code more testable but also improves its overall design and maintainability.</description>
+    </item>
     <item>
       <title>Spring Boot Software Testing 4 - Continuous Integration</title>
       <link>https://www.mrwblog.com/posts/springboottest4/</link>
