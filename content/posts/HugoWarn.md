@@ -1,8 +1,7 @@
 ---
 title: Hugo Warning [found no layout file for ..]
 date: 2024-07-01
-showToc: flase
-UseHugoToc: false
+showToc: false
 tags: 
 - hugo
 - git
