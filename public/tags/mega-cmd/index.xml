@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Mega Cmd on Mr.W&#39;s Blog</title>
-    <link>http://localhost:1313/tags/mega-cmd/</link>
+    <link>https://www.mrwblog.com/tags/mega-cmd/</link>
     <description>Recent content in Mega Cmd on Mr.W&#39;s Blog</description>
     <image>
       <title>Mr.W&#39;s Blog</title>
-      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://www.mrwblog.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://www.mrwblog.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Sat, 11 Mar 2023 23:19:05 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/mega-cmd/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.mrwblog.com/tags/mega-cmd/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How to enter QNAP NAS Mega CMD</title>
-      <link>http://localhost:1313/posts/megacmd/</link>
+      <link>https://www.mrwblog.com/posts/megacmd/</link>
       <pubDate>Sat, 11 Mar 2023 23:19:05 +0000</pubDate>
-      <guid>http://localhost:1313/posts/megacmd/</guid>
+      <guid>https://www.mrwblog.com/posts/megacmd/</guid>
       <description>Mega CMD is an software that provide similar function of QNAP HBS, but I don&amp;rsquo;t know why they can&amp;rsquo;t just integrated their function into HBS. And it is a command line system, though I&amp;rsquo;m not afraid of command but it truly increase the inconvenience for those who just want to make a backup. Most seriously, the way to enter the cmd window won&amp;rsquo;t show up on their readme.md but only in the introduction of the app store, with an very blurry picture.</description>
     </item>
   </channel>
