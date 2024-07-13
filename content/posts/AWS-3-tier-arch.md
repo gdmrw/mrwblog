@@ -2,6 +2,8 @@
 title: AWS Typical 3 Tier Solution Architecture
 date: 2024-04-06
 tags: 
+- aws
+- cloud
 cover:
   image: img/aws-3-tier-arch.drawio.svg
 

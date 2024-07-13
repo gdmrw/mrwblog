@@ -11,8 +11,16 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 01 Jul 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 13 Jul 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SpringBoot JDBC Reverse Analysis</title>
+      <link>http://localhost:1313/posts/springbootjdbc/</link>
+      <pubDate>Sat, 13 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/springbootjdbc/</guid>
+      <description>This is some of my thinking about the Spring framework&amp;rsquo;s JDBC from my reverse engineering course. The location model image shows the abstract classes, implementation classes, interfaces, and methods that are directly or indirectly involved when executing the query method. The workflow image depicts the detailed function call process after initiating the JDBC query method.
+Due to space and time limitations, other branches resulting from polymorphism are not shown; only the chain produced by importing SQL of string type is displayed here.</description>
+    </item>
     <item>
       <title>Hugo Warning [found no layout file for ..]</title>
       <link>http://localhost:1313/posts/hugowarn/</link>

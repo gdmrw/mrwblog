@@ -1,7 +1,9 @@
 ---
 title: AWS S3 Storage Class
 date: 2024-04-08
-tags: 
+tags:
+- aws
+- cloud
 cover:
   image: img/aws-s3.svg
 ---
