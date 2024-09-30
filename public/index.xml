@@ -9,7 +9,7 @@
       <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.128.0</generator>
     <language>en</language>
     <lastBuildDate>Sat, 13 Jul 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
@@ -194,6 +194,14 @@ bidireaction flow 99% of Web traffic(HTTP) is one-way flow, which is a group of 
       <guid>http://localhost:1313/posts/nginx_error/</guid>
       <description>If you use systemctl status nginx to check nginx status you may find a pid error appear on status panel. The words that appear may be :
 Can&amp;#39;t open PID file /run/nginx.pid (yet?) after start: Operation not permitted Or Can&amp;#39;t open PID file /var/run/nginx.pid (yet?) after start: No such file or directory This is becasue the pid file not generate before the nginx booted. The solution is to add following sentence into /usr/lib/systemd/system/nginx.</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/posts/new/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/new/</guid>
+      <description>Project Objectives: The project goal is is to benchmark Redis database in different architecture environments, analyze the performance differences and find the root cause of the components and class that cause the performance issue of riscV. Provides reference for optimization options for future servers based on the Risc V architecture.
+Outcome: The outcome will be a comprehensive report including list of the potencial performance bottleneck points and optimization advisements. This document will help future developers to optimize the performance of RiscV architecture servers and improve overall operating efficiency.</description>
     </item>
   </channel>
 </rss>

@@ -9,16 +9,17 @@
       <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.128.0</generator>
     <language>en</language>
     <lastBuildDate>Sat, 13 Jul 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/spring/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>SpringBoot JDBC Reverse Engineering</title>
+      <title>SpringBoot JDBC Reverse Analysis</title>
       <link>http://localhost:1313/posts/springbootjdbc/</link>
       <pubDate>Sat, 13 Jul 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/springbootjdbc/</guid>
-      <description></description>
+      <description>This is some of my thinking about the Spring framework&amp;rsquo;s JDBC from my reverse engineering course. The location model image shows the abstract classes, implementation classes, interfaces, and methods that are directly or indirectly involved when executing the query method. The workflow image depicts the detailed function call process after initiating the JDBC query method.
+Due to space and time limitations, other branches resulting from polymorphism are not shown; only the chain produced by importing SQL of string type is displayed here.</description>
     </item>
   </channel>
 </rss>

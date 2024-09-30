@@ -9,8 +9,27 @@
       <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.128.0</generator>
     <language>en</language>
+    <lastBuildDate>Mon, 08 Apr 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/aws/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AWS S3 Storage Class</title>
+      <link>http://localhost:1313/posts/aws-s3-storage-class/</link>
+      <pubDate>Mon, 08 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/aws-s3-storage-class/</guid>
+      <description>Bucket Bucket Bucket
+Standard Classes S3 Standard - General Purpose 99.99% avaliability Used for frequent accessed data Low latency and high throughput Usage: Big data analytics, mobile &amp;amp; gaming applications, content distribution&amp;hellip;
+Standard - Infrequent Access For data that is less frequently accessed, but requires rapud acess when needed Lower cost than S3 standard Intelligent Tiering Moves objects automatically between Access Tiers based on usage Usage: Unknown or changing access</description>
+    </item>
+    <item>
+      <title>AWS Typical 3 Tier Solution Architecture</title>
+      <link>http://localhost:1313/posts/aws-3-tier-arch/</link>
+      <pubDate>Sat, 06 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/aws-3-tier-arch/</guid>
+      <description>The above picture shows the classic 3 tier solution architecture in AWS manner.This solution well solves problems such as disaster recovery, failover, load balancing, and network domain separation.
+Below is the detailed description of tools using in the solution.
+Route 53: Amazon Route 53 is a highly available and scalable Domain Name System (DNS) web service. It has health check abilitiy and failover solution. By using Route 53, you can fine-tune the DNS route with continuously high avaliablilty.</description>
+    </item>
   </channel>
 </rss>

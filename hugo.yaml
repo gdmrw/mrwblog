@@ -67,7 +67,7 @@ params:
     enabled: true # needs to be explicitly set
     title: Mr.W / Nelson Wang
     subtitle: "Coder, Investor and Landscape Photographer"
-    imageUrl: "/img/avatar.png"
+    imageUrl: "/img/avatar.jpg"
     imageWidth: 120
     imageHeight: 120
     imageTitle: my image

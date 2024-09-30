@@ -16,7 +16,9 @@
 
 .profile img {
     display: inline-table;
-    /* border-radius: 80%; */
+    border-radius: 80%; 
+    width: 200px;  /* 设置宽度 */
+    height: 200px; /* 设置高度 */
 }
 
 .buttons {
