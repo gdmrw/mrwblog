@@ -9,7 +9,7 @@
       <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
-    <generator>Hugo -- 0.128.0</generator>
+    <generator>Hugo -- 0.140.2</generator>
     <language>en</language>
     <lastBuildDate>Sat, 13 Jul 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
@@ -18,190 +18,382 @@
       <link>http://localhost:1313/posts/springbootjdbc/</link>
       <pubDate>Sat, 13 Jul 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/springbootjdbc/</guid>
-      <description>This is some of my thinking about the Spring framework&amp;rsquo;s JDBC from my reverse engineering course. The location model image shows the abstract classes, implementation classes, interfaces, and methods that are directly or indirectly involved when executing the query method. The workflow image depicts the detailed function call process after initiating the JDBC query method.
-Due to space and time limitations, other branches resulting from polymorphism are not shown; only the chain produced by importing SQL of string type is displayed here.</description>
+      <description>&lt;hr&gt;
+&lt;blockquote&gt;
+&lt;p&gt;This is some of my thinking about the Spring framework&amp;rsquo;s JDBC from my reverse engineering course. The &lt;code&gt;location model&lt;/code&gt; image shows the abstract classes, implementation classes, interfaces, and methods that are directly or indirectly involved when executing the query method. The &lt;code&gt;workflow&lt;/code&gt; image depicts the detailed function call process after initiating the JDBC query method.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Due to space and time limitations, other branches resulting from polymorphism are not shown; only the chain produced by importing SQL of string type is displayed here.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Hugo Warning [found no layout file for ..]</title>
       <link>http://localhost:1313/posts/hugowarn/</link>
       <pubDate>Mon, 01 Jul 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/hugowarn/</guid>
-      <description>Warning message: WARN found no layout file for &amp;#34;html&amp;#34; for kind &amp;#34;home&amp;#34;: You should create a template file which matches Hugo Layouts Lookup Rules for this combination. WARN found no layout file for &amp;#34;html&amp;#34; for kind &amp;#34;taxonomy&amp;#34;: You should create a template file which matches Hugo Layouts Lookup Rules for this combination. WARN found no layout file for &amp;#34;html&amp;#34; for kind &amp;#34;section&amp;#34;: You should create a template file which matches Hugo Layouts Lookup Rules for this combination.</description>
+      <description>&lt;h3 id=&#34;warning-message&#34;&gt;Warning message:&lt;/h3&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;WARN  found no layout file for &amp;#34;html&amp;#34; for kind &amp;#34;home&amp;#34;: You should create a template file which matches Hugo Layouts Lookup Rules for this combination.
+WARN  found no layout file for &amp;#34;html&amp;#34; for kind &amp;#34;taxonomy&amp;#34;: You should create a template file which matches Hugo Layouts Lookup Rules for this combination.
+WARN  found no layout file for &amp;#34;html&amp;#34; for kind &amp;#34;section&amp;#34;: You should create a template file which matches Hugo Layouts Lookup Rules for this combination.
+WARN  found no layout file for &amp;#34;html&amp;#34; for kind &amp;#34;page&amp;#34;: You should create a template file which matches Hugo Layouts Lookup Rules for this combination.
+WARN  found no layout file for &amp;#34;html&amp;#34; for layout &amp;#34;archives&amp;#34; for kind &amp;#34;page&amp;#34;: You should create a template file which matches Hugo Layouts Lookup Rules for this combination.
+WARN  found no layout file for &amp;#34;html&amp;#34; for layout &amp;#34;search&amp;#34; for kind &amp;#34;page&amp;#34;: You should create a template file which matches Hugo Layouts Lookup Rules for this combination.
+WARN  found no layout file for &amp;#34;html&amp;#34; for kind &amp;#34;term&amp;#34;: You should create a template file which matches Hugo Layouts Lookup Rules for this combination.
+WARN  found no layout file for &amp;#34;json&amp;#34; for kind &amp;#34;home&amp;#34;: You should create a template file which matches Hugo Layouts Lookup Rules for this combination.
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;This will happen when you reclone repo with git submodule from remote branch and the &lt;code&gt;submodule&lt;/code&gt; not get downloaded as well. In other words, Submodules may not get cloned automatically.&lt;/p&gt;</description>
     </item>
     <item>
       <title>AWS S3 Storage Class</title>
       <link>http://localhost:1313/posts/aws-s3-storage-class/</link>
       <pubDate>Mon, 08 Apr 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/aws-s3-storage-class/</guid>
-      <description>Bucket Bucket Bucket
-Standard Classes S3 Standard - General Purpose 99.99% avaliability Used for frequent accessed data Low latency and high throughput Usage: Big data analytics, mobile &amp;amp; gaming applications, content distribution&amp;hellip;
-Standard - Infrequent Access For data that is less frequently accessed, but requires rapud acess when needed Lower cost than S3 standard Intelligent Tiering Moves objects automatically between Access Tiers based on usage Usage: Unknown or changing access</description>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;Bucket Bucket Bucket&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h1 id=&#34;standard-classes&#34;&gt;Standard Classes&lt;/h1&gt;
+&lt;h2 id=&#34;s3-standard---general-purpose&#34;&gt;S3 Standard - General Purpose&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;99.99% avaliability&lt;/li&gt;
+&lt;li&gt;Used for frequent accessed data&lt;/li&gt;
+&lt;li&gt;Low latency and high throughput&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Usage: Big data analytics, mobile &amp;amp; gaming applications, content distribution&amp;hellip;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;standard---infrequent-access&#34;&gt;Standard - Infrequent Access&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;For data that is less frequently accessed, but requires rapud acess when needed&lt;/li&gt;
+&lt;li&gt;Lower cost than S3 standard&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;intelligent-tiering&#34;&gt;Intelligent Tiering&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Moves objects automatically between Access Tiers based on usage&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Usage: Unknown or changing access&lt;/p&gt;</description>
     </item>
     <item>
       <title>AWS Typical 3 Tier Solution Architecture</title>
       <link>http://localhost:1313/posts/aws-3-tier-arch/</link>
       <pubDate>Sat, 06 Apr 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/aws-3-tier-arch/</guid>
-      <description>The above picture shows the classic 3 tier solution architecture in AWS manner.This solution well solves problems such as disaster recovery, failover, load balancing, and network domain separation.
-Below is the detailed description of tools using in the solution.
-Route 53: Amazon Route 53 is a highly available and scalable Domain Name System (DNS) web service. It has health check abilitiy and failover solution. By using Route 53, you can fine-tune the DNS route with continuously high avaliablilty.</description>
+      <description>&lt;p&gt;The above picture shows the classic 3 tier solution architecture in AWS manner.This solution well solves problems such as disaster recovery, failover, load balancing, and network domain separation.&lt;/p&gt;
+&lt;p&gt;Below is the detailed description of tools using in the solution.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Route 53:  Amazon Route 53 is a highly available and scalable Domain Name System (DNS) web service. It has health check abilitiy and failover solution. By using Route 53, you can fine-tune the DNS route with continuously high avaliablilty.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Spring Boot Software Testing 6 - Static Analyzers</title>
       <link>http://localhost:1313/posts/springboottest6/</link>
       <pubDate>Thu, 04 Apr 2024 13:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/springboottest6/</guid>
-      <description>Static Analyzers Static analysis tools are essential in software development, focusing on improving code quality, identifying bugs, and ensuring adherence to coding standards without executing the code. They serve multiple purposes:
-Code Quality: Enhance code readability, maintainability, and efficiency.
-Bug Detection: Identify and fix errors early in the development process.
-Security: Detect potential security vulnerabilities.
-Performance: Highlight inefficient code patterns for optimization. These tools are used throughout the development lifecycle, particularly in:</description>
+      <description>&lt;h1 id=&#34;static-analyzers&#34;&gt;Static Analyzers&lt;/h1&gt;
+&lt;p&gt;Static analysis tools are essential in software development, focusing on improving code quality, identifying bugs, and ensuring adherence to coding standards without executing the code. They serve multiple purposes:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Code Quality: Enhance code readability, maintainability, and efficiency.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Bug Detection: Identify and fix errors early in the development process.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Security: Detect potential security vulnerabilities.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Performance: Highlight inefficient code patterns for optimization.
+These tools are used throughout the development lifecycle, particularly in:&lt;/p&gt;</description>
     </item>
     <item>
       <title>Spring Boot Software Testing 5 - Testable Design and Mocking</title>
       <link>http://localhost:1313/posts/springboottest5/</link>
       <pubDate>Thu, 04 Apr 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/springboottest5/</guid>
-      <description>Testable Design and Mocking What is testable design, and what kinds of design in java are testable?
-In Java, achieving a testable design is about adhering to principles and practices that minimize coupling, maximize cohesion, and facilitate isolation of components for testing. It involves strategic use of design patterns, architectural decisions that favor testability, and leveraging tools and frameworks that support automated testing. This approach not only makes your code more testable but also improves its overall design and maintainability.</description>
+      <description>&lt;h1 id=&#34;testable-design-and-mocking&#34;&gt;Testable Design and Mocking&lt;/h1&gt;
+&lt;hr&gt;
+&lt;p&gt;What is testable design, and what kinds of design in java are testable?&lt;/p&gt;
+&lt;p&gt;In Java, achieving a testable design is about adhering to principles and practices that minimize coupling, maximize cohesion, and facilitate isolation of components for testing. It involves strategic use of design patterns, architectural decisions that favor testability, and leveraging tools and frameworks that support automated testing. This approach not only makes your code more testable but also improves its overall design and maintainability.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Spring Boot Software Testing 4 - Continuous Integration</title>
       <link>http://localhost:1313/posts/springboottest4/</link>
       <pubDate>Mon, 01 Apr 2024 13:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/springboottest4/</guid>
-      <description>Continuous Integration Continuous Integration (CI) is a software development practice where developers frequently merge their code changes into a central repository, preferably multiple times a day. Each merge triggers an automated build and testing process, which helps in identifying and addressing integration errors as quickly as possible. The primary purpose of CI is to improve software quality and accelerate the development process.
-Key aspects of Continuous Integration include:
-Automated Building and Testing: Automated tools are used to compile the code and run tests every time changes are integrated.</description>
+      <description>&lt;h1 id=&#34;continuous-integration&#34;&gt;Continuous Integration&lt;/h1&gt;
+&lt;p&gt;Continuous Integration (CI) is a software development practice where developers frequently merge their code changes into a central repository, preferably multiple times a day. Each merge triggers an automated build and testing process, which helps in identifying and addressing integration errors as quickly as possible. The primary purpose of CI is to improve software quality and accelerate the development process.&lt;/p&gt;
+&lt;p&gt;Key aspects of Continuous Integration include:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Automated Building and Testing&lt;/strong&gt;: Automated tools are used to compile the code and run tests every time changes are integrated. This ensures that the software is always in a state where it can be deployed.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Spring Boot Software Testing 3 - White Box Testing and Coverage</title>
       <link>http://localhost:1313/posts/springboottest3/</link>
       <pubDate>Mon, 01 Apr 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/springboottest3/</guid>
-      <description>White Box Testing and Coverage Structural testing, often referred to as white-box testing, is a rigorous methodology for evaluating the internal workings of a software application. This technique delves into the application&amp;rsquo;s source code, architecture, and design, offering a detailed view of its internal pathways. Unlike black-box testing, which assesses the software&amp;rsquo;s external functionality without regard to its internal mechanisms, structural testing demands an intimate understanding of the codebase. This approach allows testers to meticulously examine execution paths, logic flows, and the outcomes of various code segments.</description>
+      <description>&lt;h1 id=&#34;white-box-testing-and-coverage&#34;&gt;White Box Testing and Coverage&lt;/h1&gt;
+&lt;p&gt;Structural testing, often referred to as white-box testing, is a rigorous methodology for evaluating the internal workings of a software application. This technique delves into the application&amp;rsquo;s source code, architecture, and design, offering a detailed view of its internal pathways. Unlike black-box testing, which assesses the software&amp;rsquo;s external functionality without regard to its internal mechanisms, structural testing demands an intimate understanding of the codebase. This approach allows testers to meticulously examine execution paths, logic flows, and the outcomes of various code segments.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Spring Boot Software Testing 2 - Actuator - Finite State Machine</title>
       <link>http://localhost:1313/posts/springboottest2/</link>
       <pubDate>Sun, 31 Mar 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/springboottest2/</guid>
-      <description>Finite State machine Finite models are essential in testing for simplifying complex systems, allowing exhaustive testing, and facilitating automated test case generation. They offer a clear way to represent systems as finite state machines, making it possible to explore all possible states and transitions. This approach is critical for ensuring systems behave as expected under every scenario, especially in critical applications where failure is unacceptable.
-Key benefits include:
-Simplification: Reducing complex systems to manageable models.</description>
+      <description>&lt;h1 id=&#34;finite-state-machine&#34;&gt;Finite State machine&lt;/h1&gt;
+&lt;p&gt;Finite models are essential in testing for simplifying complex systems, allowing exhaustive testing, and facilitating automated test case generation. They offer a clear way to represent systems as finite state machines, making it possible to explore all possible states and transitions. This approach is critical for ensuring systems behave as expected under every scenario, especially in critical applications where failure is unacceptable.&lt;/p&gt;
+&lt;p&gt;Key benefits include:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Simplification: Reducing complex systems to manageable models.&lt;/li&gt;
+&lt;li&gt;Exhaustive Testing: Enabling complete coverage of all possible states and transitions.&lt;/li&gt;
+&lt;li&gt;Automated Testing: Supporting the generation of test cases and regression testing.&lt;/li&gt;
+&lt;li&gt;Formal Verification: Allowing mathematical proofs of system correctness through model checking and other formal methods.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Finite models are widely used in software and hardware testing to improve test coverage, find potential issues, and ensure system reliability. However, challenges such as scalability and the accuracy of the models must be managed to ensure effective testing outcomes.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Spring Boot Software Testing 1, Partitioning and Functioning testing</title>
       <link>http://localhost:1313/posts/springboottest1/</link>
       <pubDate>Sat, 30 Mar 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/springboottest1/</guid>
-      <description>Spring Boot is a project under the Spring Framework that simplifies developing, configuring, and deploying Spring-based applications. It promotes convention over configuration by offering pre-configured setups and auto-configuration based on project dependencies, eliminating much of the manual setup and configuration work. Spring Boot applications are stand-alone, containing an embedded web server for easy deployment as a single executable JAR. It offers opinionated defaults to reduce development effort, while still allowing for customization.</description>
+      <description>&lt;p&gt;Spring Boot is a project under the Spring Framework that simplifies developing, configuring, and deploying Spring-based applications. It promotes convention over configuration by offering pre-configured setups and auto-configuration based on project dependencies, eliminating much of the manual setup and configuration work. Spring Boot applications are stand-alone, containing an embedded web server for easy deployment as a single executable JAR. It offers opinionated defaults to reduce development effort, while still allowing for customization. Features like Actuator provide built-in endpoints for application monitoring and management. Primarily written in Java, Spring Boot supports other JVM languages like Kotlin and Groovy, making it versatile for various enterprise applications. Its goal is to enable quick application startup with less code and configuration hassle.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Size measurement parameters -- client, offset and scroll</title>
       <link>http://localhost:1313/posts/scroll-offset-client/</link>
       <pubDate>Mon, 08 Jan 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/scroll-offset-client/</guid>
-      <description>Prerequisite: You need to familiar with the box model
-Understanding the differences between clientHeight/clientLeft, offsetHeight/offsetLeft, and scrollTop/scrollLeft in the context of the Document Object Model (DOM) is crucial for effective web design and development. These properties are used to measure different aspects of elements&amp;rsquo; size and position in relation to their content, padding, border, and scroll position.
-Client clientHeight and clientLeft will give you the height and width of an element including padding.</description>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;Prerequisite: You need to familiar with the &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model&#34;&gt;box model&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Understanding the differences between &lt;code&gt;clientHeight&lt;/code&gt;/&lt;code&gt;clientLeft&lt;/code&gt;, &lt;code&gt;offsetHeight&lt;/code&gt;/&lt;code&gt;offsetLeft&lt;/code&gt;, and &lt;code&gt;scrollTop&lt;/code&gt;/&lt;code&gt;scrollLeft&lt;/code&gt; in the context of the Document Object Model (DOM) is crucial for effective web design and development. These properties are used to measure different aspects of elements&amp;rsquo; size and position in relation to their content, padding, border, and scroll position.&lt;/p&gt;
+&lt;h3 id=&#34;client&#34;&gt;Client&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;clientHeight&lt;/code&gt; and &lt;code&gt;clientLeft&lt;/code&gt; will give you the height and width of an element including padding. However, &lt;code&gt;client&lt;/code&gt; will not calculate the size of the borders and margins.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;clientHeight&lt;/code&gt;/&lt;code&gt;clientLeft&lt;/code&gt; are useful for understanding the visible part of an element, particularly for styling purposes or when dealing with scrolling.&lt;/li&gt;
+&lt;li&gt;It&amp;rsquo;s a read-only property, which means you can not modify the params and generate action.
+&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/posts/scroll-offset-client/client.webp&#34;&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;offset&#34;&gt;Offset&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Similar with &lt;code&gt;client&lt;/code&gt;, &lt;code&gt;offsetHeight&lt;/code&gt;, &lt;code&gt;offsetLeft&lt;/code&gt; will output the element height and width but  &lt;strong&gt;including&lt;/strong&gt; verical and horizontal &lt;strong&gt;border&lt;/strong&gt;, in pixel.&lt;/li&gt;
+&lt;li&gt;offsetHeight/offsetLeft are often used when you need to know the actual size of the element including borders and its position in the layout.&lt;/li&gt;
+&lt;li&gt;Same as client, &lt;code&gt;offsetHeight&lt;/code&gt;/&lt;code&gt;offsetLeft&lt;/code&gt; is a read only param.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/posts/scroll-offset-client/offset.webp&#34;&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Scroll Event</title>
       <link>http://localhost:1313/posts/scroll-event/</link>
       <pubDate>Sun, 07 Jan 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/scroll-event/</guid>
-      <description>The scroll event in JavaScript is an important event that is triggered whenever an element or the window is scrolled. This event is particularly useful for creating dynamic effects based on the scroll position, such as parallax animations, infinite scrolling, or showing/hiding navigation bars. Here&amp;rsquo;s an overview of the scroll event:
-1. How it Works: The scroll event fires when the document view or an element has been scrolled. It applies to any scrollable element, including the window.</description>
+      <description>&lt;p&gt;The &lt;code&gt;scroll&lt;/code&gt; event in JavaScript is an important event that is triggered whenever an element or the window is scrolled. This event is particularly useful for creating dynamic effects based on the scroll position, such as parallax animations, infinite scrolling, or showing/hiding navigation bars. Here&amp;rsquo;s an overview of the &lt;code&gt;scroll&lt;/code&gt; event:&lt;/p&gt;
+&lt;h3 id=&#34;1-how-it-works&#34;&gt;1. How it Works:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;The &lt;code&gt;scroll&lt;/code&gt; event fires when the document view or an element has been scrolled. It applies to any scrollable element, including the window.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Event flow , capture, bubble and how to stop bubbling</title>
       <link>http://localhost:1313/posts/event-flow-capture-bubble/</link>
       <pubDate>Sat, 30 Dec 2023 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/event-flow-capture-bubble/</guid>
-      <description>Event Bubbling in JavaScript Event capturing is an event handling mechanism in JavaScript, contrasting with event bubbling. During the capturing phase, an event starts at the root node (usually the document object) and propagates down the DOM tree to the target element, where the event actually took place.
-The process of event capturing is as follows:
-Capturing Phase: When an event occurs, it is first captured at the topmost node of the DOM tree, then propagates downwards, level by level, until it reaches the target element.</description>
+      <description>&lt;h2 id=&#34;event-bubbling-in-javascript&#34;&gt;Event Bubbling in JavaScript&lt;/h2&gt;
+&lt;p&gt;Event capturing is an event handling mechanism in JavaScript, contrasting with event bubbling. During the capturing phase, an event starts at the root node (usually the &lt;code&gt;document&lt;/code&gt; object) and propagates down the DOM tree to the target element, where the event actually took place.&lt;/p&gt;
+&lt;p&gt;The process of event capturing is as follows:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Capturing Phase&lt;/strong&gt;: When an event occurs, it is first captured at the topmost node of the DOM tree, then propagates downwards, level by level, until it reaches the target element. During this phase, only those event listeners set to use capturing mode are triggered.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Timer</title>
       <link>http://localhost:1313/posts/timer/</link>
       <pubDate>Tue, 26 Dec 2023 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/timer/</guid>
-      <description>Javascript timer function can make some code be excueted repeatedly over time.
-Syntax:
-// open setInterval(function,interaval-time) // close let t = setInterval(function,interaval-time) clearInterval(t) t: variable
-interaval-time unit: ms
-Example:
-&amp;lt;body&amp;gt; &amp;lt;button class=&amp;#34;btn&amp;#34; disabled&amp;gt;aggree(5)&amp;lt;/button&amp;gt; &amp;lt;script&amp;gt; const btn = document.querySelector(&amp;#39;.btn&amp;#39;) let i = 5 let timer = setInterval(function(){ i-- btn.innerHTML = `aggree(${i})` if (i === 0){ clearInterval(timer) btn.disabled = false btn.innerHTML = &amp;#39;aggree&amp;#39; } },1000) &amp;lt;/script&amp;gt; &amp;lt;/body&amp;gt; </description>
+      <description>&lt;p&gt;Javascript timer function can make some code be excueted repeatedly over time.&lt;/p&gt;
+&lt;p&gt;Syntax:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;// open
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;setInterval&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;kd&#34;&gt;function&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;interaval&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;time&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;// close
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;&lt;span class=&#34;kd&#34;&gt;let&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;t&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;setInterval&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;kd&#34;&gt;function&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;interaval&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;time&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nx&#34;&gt;clearInterval&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;t&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;code&gt;t&lt;/code&gt;: variable&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;interaval-time&lt;/code&gt; unit: ms&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Example:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;body&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;button&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;class&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;btn&amp;#34;&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;disabled&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;aggree(5)&lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;button&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;script&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;kr&#34;&gt;const&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;btn&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;document&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;querySelector&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;.btn&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;kd&#34;&gt;let&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;i&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;5&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;kd&#34;&gt;let&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;timer&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;setInterval&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;kd&#34;&gt;function&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(){&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;            &lt;span class=&#34;nx&#34;&gt;i&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;--&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;            &lt;span class=&#34;nx&#34;&gt;btn&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;innerHTML&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;sb&#34;&gt;`aggree(&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;${&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;i&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;sb&#34;&gt;)`&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;            &lt;span class=&#34;k&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;i&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;===&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;){&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                &lt;span class=&#34;nx&#34;&gt;clearInterval&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;timer&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                &lt;span class=&#34;nx&#34;&gt;btn&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;disabled&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;false&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                &lt;span class=&#34;nx&#34;&gt;btn&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;innerHTML&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;aggree&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;            &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;p&#34;&gt;},&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;1000&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;script&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;body&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
     </item>
     <item>
       <title>Control CSS using classList</title>
       <link>http://localhost:1313/posts/operate-style/</link>
       <pubDate>Mon, 25 Dec 2023 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/operate-style/</guid>
-      <description>ClassList can help reduce the redundancy of .style method and resolve the ClassName overwrite risk.
-Sytax:
-// add a class element.classList.add(&amp;#39;className&amp;#39;) // delete a class element.classList.remove(&amp;#39;className&amp;#39;) // switch a class element.classList.toggle(&amp;#39;className&amp;#39;) Example:
-&amp;lt;!DOCTYPE html&amp;gt; &amp;lt;html lang=&amp;#34;en&amp;#34;&amp;gt; &amp;lt;head&amp;gt; &amp;lt;meta charset=&amp;#34;UTF-8&amp;#34;&amp;gt; &amp;lt;meta name=&amp;#34;viewport&amp;#34; content=&amp;#34;width=device-width, initial-scale=1.0&amp;#34;&amp;gt; &amp;lt;title&amp;gt;Document&amp;lt;/title&amp;gt; &amp;lt;style&amp;gt; .box { width: 200px; height: 200px; color: #333; } .active { color: red; background-color: pink; } &amp;lt;/style&amp;gt; &amp;lt;/head&amp;gt; &amp;lt;body&amp;gt; &amp;lt;div class=&amp;#34;box&amp;#34;&amp;gt;text&amp;lt;/div&amp;gt; &amp;lt;script&amp;gt; //get element const box = document.</description>
+      <description>&lt;p&gt;ClassList can help reduce the redundancy of .style method and resolve the ClassName overwrite risk.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Sytax:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;// add a class
+element.classList.add(&amp;#39;className&amp;#39;)
+// delete a class 
+element.classList.remove(&amp;#39;className&amp;#39;)
+// switch a class
+element.classList.toggle(&amp;#39;className&amp;#39;)
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Example:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;&amp;lt;!DOCTYPE html&amp;gt;
+&amp;lt;html lang=&amp;#34;en&amp;#34;&amp;gt;
+&amp;lt;head&amp;gt;
+    &amp;lt;meta charset=&amp;#34;UTF-8&amp;#34;&amp;gt;
+    &amp;lt;meta name=&amp;#34;viewport&amp;#34; content=&amp;#34;width=device-width, initial-scale=1.0&amp;#34;&amp;gt;
+    &amp;lt;title&amp;gt;Document&amp;lt;/title&amp;gt;
+    &amp;lt;style&amp;gt;
+        .box {
+            width: 200px;
+            height: 200px;
+            color: #333;
+        }
+        .active {
+            color: red;
+            background-color: pink;
+        }
+    &amp;lt;/style&amp;gt;
+&amp;lt;/head&amp;gt;
+&amp;lt;body&amp;gt;
+    &amp;lt;div class=&amp;#34;box&amp;#34;&amp;gt;text&amp;lt;/div&amp;gt;
+    &amp;lt;script&amp;gt;
+        //get element
+        const box = document.querySelector(&amp;#39;.box&amp;#39;)
+        //change stylew by adding class
+        box.classList.add(&amp;#39;active&amp;#39;)
+        // delete class
+        box.classList.remove(&amp;#39;active&amp;#39;)
+        //switch class
+        box.classList.toggle(&amp;#39;active&amp;#39;)
+    &amp;lt;/script&amp;gt;
+&amp;lt;/body&amp;gt;
+&amp;lt;/html&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;keep in mind that the running logic of &lt;code&gt;toggle&lt;/code&gt; is run the detect if the class existed in the element, if yes, delete, if no, add up&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>DOM -- Document Object Model</title>
       <link>http://localhost:1313/posts/dom/</link>
       <pubDate>Mon, 25 Dec 2023 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/dom/</guid>
-      <description>DOM query Slect first match element document.querySelector(&amp;#39;css selector&amp;#39;) Slect all match element document.querySelectorAll(&amp;#39;css selector&amp;#39;) return is fake array which no work with push and pop method
-Modification using DOM modify text content &amp;lt;body&amp;gt; &amp;lt;div class=&amp;#34;box&amp;#34;&amp;gt;content&amp;lt;/div&amp;gt; &amp;lt;script&amp;gt; const box = document.querySelector(&amp;#39;.box&amp;#39;) box.innerText = &amp;#39;content changed&amp;#39; box.innerHTML = &amp;#39;&amp;lt;strong&amp;gt;content changed&amp;lt;/strong&amp;gt;&amp;#39; &amp;lt;/script&amp;gt; &amp;lt;/body&amp;gt; innerText method will not parse tags, exp: &amp;lt;strong&amp;gt;hello&amp;lt;/strong&amp;gt; will return &amp;lt;strong&amp;gt;hello&amp;lt;/strong&amp;gt; rather hello</description>
+      <description>&lt;h2 id=&#34;dom-query&#34;&gt;DOM query&lt;/h2&gt;
+&lt;h3 id=&#34;slect-first-match-element&#34;&gt;Slect first match element&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;document&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;querySelector&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;css selector&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;slect-all-match-element&#34;&gt;Slect all match element&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;document&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;querySelectorAll&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;css selector&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;blockquote&gt;
+&lt;p&gt;return is fake array which no work with &lt;code&gt;push&lt;/code&gt; and &lt;code&gt;pop&lt;/code&gt; method&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;modification-using-dom&#34;&gt;Modification using DOM&lt;/h2&gt;
+&lt;h3 id=&#34;modify-text-content&#34;&gt;modify text content&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;body&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;div&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;class&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;box&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;content&lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;div&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;script&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;kr&#34;&gt;const&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;box&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;document&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;querySelector&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;.box&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;nx&#34;&gt;box&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;innerText&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;content changed&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;nx&#34;&gt;box&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;innerHTML&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;  &lt;span class=&#34;s1&#34;&gt;&amp;#39;&amp;lt;strong&amp;gt;content changed&amp;lt;/strong&amp;gt;&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;script&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;body&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;blockquote&gt;
+&lt;p&gt;innerText method will not parse tags, exp: &lt;code&gt;&amp;lt;strong&amp;gt;hello&amp;lt;/strong&amp;gt;&lt;/code&gt; will return &lt;code&gt;&amp;lt;strong&amp;gt;hello&amp;lt;/strong&amp;gt;&lt;/code&gt; rather &lt;strong&gt;hello&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;</description>
     </item>
     <item>
       <title>Git classic workflow and merge conflict solution</title>
       <link>http://localhost:1313/posts/git-workflow-conflict/</link>
       <pubDate>Fri, 17 Nov 2023 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/git-workflow-conflict/</guid>
-      <description>Mearge conflict resolution: Edit the confilct file manually and then commit to branch</description>
+      <description>&lt;p&gt;&lt;img alt=&#34;git workflow&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/posts/git-workflow-conflict/git-workflow.png&#34; title=&#34;git workflow&#34;&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Mearge conflict resolution: Edit the confilct file manually and then commit to branch&lt;/p&gt;
+&lt;/blockquote&gt;</description>
     </item>
     <item>
       <title>How to enter QNAP NAS Mega CMD</title>
       <link>http://localhost:1313/posts/megacmd/</link>
       <pubDate>Sat, 11 Mar 2023 23:19:05 +0000</pubDate>
       <guid>http://localhost:1313/posts/megacmd/</guid>
-      <description>Mega CMD is an software that provide similar function of QNAP HBS, but I don&amp;rsquo;t know why they can&amp;rsquo;t just integrated their function into HBS. And it is a command line system, though I&amp;rsquo;m not afraid of command but it truly increase the inconvenience for those who just want to make a backup. Most seriously, the way to enter the cmd window won&amp;rsquo;t show up on their readme.md but only in the introduction of the app store, with an very blurry picture.</description>
+      <description>&lt;p&gt;&lt;a href=&#34;https://github.com/meganz/MEGAcmd&#34;&gt;Mega CMD&lt;/a&gt; is an software that provide similar function of QNAP &lt;a href=&#34;https://www.qnap.com/en-us/software/hybrid-backup-sync&#34;&gt;HBS&lt;/a&gt;, but I don&amp;rsquo;t know why they can&amp;rsquo;t just integrated their function into HBS. And it is a command line system, though I&amp;rsquo;m not afraid of command but it truly increase the inconvenience for those who just want to make a backup. Most seriously, the way to enter the cmd window won&amp;rsquo;t show up on their readme.md but only in the introduction of the app store, with an very blurry picture.  That&amp;rsquo;s ridiculous. I hope they can make the doc clearer in the future.&lt;/p&gt;</description>
     </item>
     <item>
       <title>How to make QNAP NAS DDNS functional while using Tproxy</title>
       <link>http://localhost:1313/posts/qnap_ddns/</link>
       <pubDate>Wed, 08 Mar 2023 21:55:34 +0000</pubDate>
       <guid>http://localhost:1313/posts/qnap_ddns/</guid>
-      <description>Prerequisite: Before proceeding, it is essential to have a static public IP. If you do not already have one, kindly reach out to your ISP for assistance. Please note that if you are unfamiliar with QNAP NAS, this article may not cater to your requirements.
-For several reasons, you cannot connect to many cloud storage server like google drive in China, which make it difficult to fully function the HBS3(Hybrid Backup Sync).</description>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;Prerequisite: Before proceeding, it is essential to have a static public IP. If you do not already have one, kindly reach out to your ISP for assistance. Please note that if you are unfamiliar with QNAP NAS, this article may not cater to your requirements.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;p&gt;For several reasons, you cannot connect to many cloud storage server like google drive in China, which make it difficult to fully function the HBS3(Hybrid Backup Sync). To solve those problem, I add a proxy gateway to my family network and make some configuration to make sQure the Transparent proxy working properly. However, this led to troubles with the Dynamic Domain Name System (DDNS) due to the changes in configuration. This issue had persisted for quite some time until I finally discovered the solution to the mystery.&lt;/p&gt;</description>
     </item>
     <item>
       <title>How Middleboxs Identify Proxy Traffics</title>
       <link>http://localhost:1313/posts/middle_box/</link>
       <pubDate>Sat, 22 Oct 2022 23:36:11 +0000</pubDate>
       <guid>http://localhost:1313/posts/middle_box/</guid>
-      <description>Abstract There is no absolute safe disguise, all protocols have risks of detected.
-Common attack made by middle box Passive analysis (Traffic characteristic, PoC vulnerability) Usually use for plain text protocol or TLS handshake.
-Active analysis Usually use for Shadowsocks, V2Ray, TLS v1.3 (obtian svers&amp;rsquo;s SSL certificate)
-replay package
-Some obvious charecteristics of proxy traffic. Long connection Most HTTP traffic is short connection.
-bidireaction flow 99% of Web traffic(HTTP) is one-way flow, which is a group of request match a group of response, few website use websocket.</description>
+      <description>&lt;h1 id=&#34;abstract&#34;&gt;Abstract&lt;/h1&gt;
+&lt;p&gt;There is no absolute safe disguise, all protocols have risks of detected.&lt;/p&gt;
+&lt;h2 id=&#34;common-attack-made-by-middle-box&#34;&gt;Common attack made by middle box&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Passive analysis (Traffic characteristic, PoC vulnerability)
+Usually use for plain text protocol or TLS handshake.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Active analysis
+Usually use for Shadowsocks, V2Ray, TLS v1.3 (obtian svers&amp;rsquo;s SSL certificate)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;replay package&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;some-obvious-charecteristics-of-proxy-traffic&#34;&gt;Some obvious charecteristics of proxy traffic.&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Long connection
+Most HTTP traffic is short connection.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;bidireaction flow
+99% of Web traffic(HTTP) is one-way flow, which is a group of request match a group of response, few website use websocket.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Nginx pid error fix</title>
       <link>http://localhost:1313/posts/nginx_error/</link>
       <pubDate>Fri, 21 Oct 2022 10:50:32 +0000</pubDate>
       <guid>http://localhost:1313/posts/nginx_error/</guid>
-      <description>If you use systemctl status nginx to check nginx status you may find a pid error appear on status panel. The words that appear may be :
-Can&amp;#39;t open PID file /run/nginx.pid (yet?) after start: Operation not permitted Or Can&amp;#39;t open PID file /var/run/nginx.pid (yet?) after start: No such file or directory This is becasue the pid file not generate before the nginx booted. The solution is to add following sentence into /usr/lib/systemd/system/nginx.</description>
+      <description>&lt;p&gt;If you use &lt;code&gt;systemctl status nginx&lt;/code&gt; to check nginx status you may find a pid error appear on status panel.  The words that appear may be :&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;Can&amp;#39;t open PID file /run/nginx.pid (yet?) after start: Operation not permitted
+Or
+Can&amp;#39;t open PID file /var/run/nginx.pid (yet?) after start: No such file or directory
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;This is becasue the pid file not generate before the nginx booted.
+The solution is to add following sentence into &lt;code&gt;/usr/lib/systemd/system/nginx.service&lt;/code&gt;, it will let nginx wait 0.1s before executing the executable.&lt;/p&gt;</description>
     </item>
     <item>
       <title></title>
       <link>http://localhost:1313/posts/new/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/new/</guid>
-      <description>Project Objectives: The project goal is is to benchmark Redis database in different architecture environments, analyze the performance differences and find the root cause of the components and class that cause the performance issue of riscV. Provides reference for optimization options for future servers based on the Risc V architecture.
-Outcome: The outcome will be a comprehensive report including list of the potencial performance bottleneck points and optimization advisements. This document will help future developers to optimize the performance of RiscV architecture servers and improve overall operating efficiency.</description>
+      <description>&lt;p&gt;&lt;strong&gt;Project Objectives&lt;/strong&gt;: The project goal is is to benchmark Redis database in different architecture environments, analyze the performance differences and find the root cause of the components and class that cause the performance issue of riscV. Provides reference for optimization options for future servers based on the Risc V architecture.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Outcome&lt;/strong&gt;: The outcome will be a comprehensive report including list of the potencial performance bottleneck points and optimization advisements. This document will help future developers to optimize the performance of RiscV architecture servers and improve overall operating efficiency.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

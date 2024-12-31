@@ -9,7 +9,7 @@
       <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
-    <generator>Hugo -- 0.128.0</generator>
+    <generator>Hugo -- 0.140.2</generator>
     <language>en</language>
     <lastBuildDate>Wed, 08 Mar 2023 21:55:34 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/ddns/index.xml" rel="self" type="application/rss+xml" />
@@ -18,8 +18,11 @@
       <link>http://localhost:1313/posts/qnap_ddns/</link>
       <pubDate>Wed, 08 Mar 2023 21:55:34 +0000</pubDate>
       <guid>http://localhost:1313/posts/qnap_ddns/</guid>
-      <description>Prerequisite: Before proceeding, it is essential to have a static public IP. If you do not already have one, kindly reach out to your ISP for assistance. Please note that if you are unfamiliar with QNAP NAS, this article may not cater to your requirements.
-For several reasons, you cannot connect to many cloud storage server like google drive in China, which make it difficult to fully function the HBS3(Hybrid Backup Sync).</description>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;Prerequisite: Before proceeding, it is essential to have a static public IP. If you do not already have one, kindly reach out to your ISP for assistance. Please note that if you are unfamiliar with QNAP NAS, this article may not cater to your requirements.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;p&gt;For several reasons, you cannot connect to many cloud storage server like google drive in China, which make it difficult to fully function the HBS3(Hybrid Backup Sync). To solve those problem, I add a proxy gateway to my family network and make some configuration to make sQure the Transparent proxy working properly. However, this led to troubles with the Dynamic Domain Name System (DDNS) due to the changes in configuration. This issue had persisted for quite some time until I finally discovered the solution to the mystery.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

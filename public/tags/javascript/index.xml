@@ -9,7 +9,7 @@
       <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
-    <generator>Hugo -- 0.128.0</generator>
+    <generator>Hugo -- 0.140.2</generator>
     <language>en</language>
     <lastBuildDate>Mon, 08 Jan 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
@@ -18,56 +18,160 @@
       <link>http://localhost:1313/posts/scroll-offset-client/</link>
       <pubDate>Mon, 08 Jan 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/scroll-offset-client/</guid>
-      <description>Prerequisite: You need to familiar with the box model
-Understanding the differences between clientHeight/clientLeft, offsetHeight/offsetLeft, and scrollTop/scrollLeft in the context of the Document Object Model (DOM) is crucial for effective web design and development. These properties are used to measure different aspects of elements&amp;rsquo; size and position in relation to their content, padding, border, and scroll position.
-Client clientHeight and clientLeft will give you the height and width of an element including padding.</description>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;Prerequisite: You need to familiar with the &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model&#34;&gt;box model&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Understanding the differences between &lt;code&gt;clientHeight&lt;/code&gt;/&lt;code&gt;clientLeft&lt;/code&gt;, &lt;code&gt;offsetHeight&lt;/code&gt;/&lt;code&gt;offsetLeft&lt;/code&gt;, and &lt;code&gt;scrollTop&lt;/code&gt;/&lt;code&gt;scrollLeft&lt;/code&gt; in the context of the Document Object Model (DOM) is crucial for effective web design and development. These properties are used to measure different aspects of elements&amp;rsquo; size and position in relation to their content, padding, border, and scroll position.&lt;/p&gt;
+&lt;h3 id=&#34;client&#34;&gt;Client&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;clientHeight&lt;/code&gt; and &lt;code&gt;clientLeft&lt;/code&gt; will give you the height and width of an element including padding. However, &lt;code&gt;client&lt;/code&gt; will not calculate the size of the borders and margins.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;clientHeight&lt;/code&gt;/&lt;code&gt;clientLeft&lt;/code&gt; are useful for understanding the visible part of an element, particularly for styling purposes or when dealing with scrolling.&lt;/li&gt;
+&lt;li&gt;It&amp;rsquo;s a read-only property, which means you can not modify the params and generate action.
+&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/posts/scroll-offset-client/client.webp&#34;&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;offset&#34;&gt;Offset&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Similar with &lt;code&gt;client&lt;/code&gt;, &lt;code&gt;offsetHeight&lt;/code&gt;, &lt;code&gt;offsetLeft&lt;/code&gt; will output the element height and width but  &lt;strong&gt;including&lt;/strong&gt; verical and horizontal &lt;strong&gt;border&lt;/strong&gt;, in pixel.&lt;/li&gt;
+&lt;li&gt;offsetHeight/offsetLeft are often used when you need to know the actual size of the element including borders and its position in the layout.&lt;/li&gt;
+&lt;li&gt;Same as client, &lt;code&gt;offsetHeight&lt;/code&gt;/&lt;code&gt;offsetLeft&lt;/code&gt; is a read only param.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/posts/scroll-offset-client/offset.webp&#34;&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Scroll Event</title>
       <link>http://localhost:1313/posts/scroll-event/</link>
       <pubDate>Sun, 07 Jan 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/scroll-event/</guid>
-      <description>The scroll event in JavaScript is an important event that is triggered whenever an element or the window is scrolled. This event is particularly useful for creating dynamic effects based on the scroll position, such as parallax animations, infinite scrolling, or showing/hiding navigation bars. Here&amp;rsquo;s an overview of the scroll event:
-1. How it Works: The scroll event fires when the document view or an element has been scrolled. It applies to any scrollable element, including the window.</description>
+      <description>&lt;p&gt;The &lt;code&gt;scroll&lt;/code&gt; event in JavaScript is an important event that is triggered whenever an element or the window is scrolled. This event is particularly useful for creating dynamic effects based on the scroll position, such as parallax animations, infinite scrolling, or showing/hiding navigation bars. Here&amp;rsquo;s an overview of the &lt;code&gt;scroll&lt;/code&gt; event:&lt;/p&gt;
+&lt;h3 id=&#34;1-how-it-works&#34;&gt;1. How it Works:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;The &lt;code&gt;scroll&lt;/code&gt; event fires when the document view or an element has been scrolled. It applies to any scrollable element, including the window.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Event flow , capture, bubble and how to stop bubbling</title>
       <link>http://localhost:1313/posts/event-flow-capture-bubble/</link>
       <pubDate>Sat, 30 Dec 2023 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/event-flow-capture-bubble/</guid>
-      <description>Event Bubbling in JavaScript Event capturing is an event handling mechanism in JavaScript, contrasting with event bubbling. During the capturing phase, an event starts at the root node (usually the document object) and propagates down the DOM tree to the target element, where the event actually took place.
-The process of event capturing is as follows:
-Capturing Phase: When an event occurs, it is first captured at the topmost node of the DOM tree, then propagates downwards, level by level, until it reaches the target element.</description>
+      <description>&lt;h2 id=&#34;event-bubbling-in-javascript&#34;&gt;Event Bubbling in JavaScript&lt;/h2&gt;
+&lt;p&gt;Event capturing is an event handling mechanism in JavaScript, contrasting with event bubbling. During the capturing phase, an event starts at the root node (usually the &lt;code&gt;document&lt;/code&gt; object) and propagates down the DOM tree to the target element, where the event actually took place.&lt;/p&gt;
+&lt;p&gt;The process of event capturing is as follows:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Capturing Phase&lt;/strong&gt;: When an event occurs, it is first captured at the topmost node of the DOM tree, then propagates downwards, level by level, until it reaches the target element. During this phase, only those event listeners set to use capturing mode are triggered.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Timer</title>
       <link>http://localhost:1313/posts/timer/</link>
       <pubDate>Tue, 26 Dec 2023 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/timer/</guid>
-      <description>Javascript timer function can make some code be excueted repeatedly over time.
-Syntax:
-// open setInterval(function,interaval-time) // close let t = setInterval(function,interaval-time) clearInterval(t) t: variable
-interaval-time unit: ms
-Example:
-&amp;lt;body&amp;gt; &amp;lt;button class=&amp;#34;btn&amp;#34; disabled&amp;gt;aggree(5)&amp;lt;/button&amp;gt; &amp;lt;script&amp;gt; const btn = document.querySelector(&amp;#39;.btn&amp;#39;) let i = 5 let timer = setInterval(function(){ i-- btn.innerHTML = `aggree(${i})` if (i === 0){ clearInterval(timer) btn.disabled = false btn.innerHTML = &amp;#39;aggree&amp;#39; } },1000) &amp;lt;/script&amp;gt; &amp;lt;/body&amp;gt; </description>
+      <description>&lt;p&gt;Javascript timer function can make some code be excueted repeatedly over time.&lt;/p&gt;
+&lt;p&gt;Syntax:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;// open
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;setInterval&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;kd&#34;&gt;function&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;interaval&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;time&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;// close
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;&lt;span class=&#34;kd&#34;&gt;let&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;t&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;setInterval&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;kd&#34;&gt;function&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;interaval&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;time&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nx&#34;&gt;clearInterval&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;t&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;code&gt;t&lt;/code&gt;: variable&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;interaval-time&lt;/code&gt; unit: ms&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Example:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;body&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;button&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;class&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;btn&amp;#34;&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;disabled&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;aggree(5)&lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;button&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;script&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;kr&#34;&gt;const&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;btn&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;document&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;querySelector&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;.btn&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;kd&#34;&gt;let&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;i&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;5&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;kd&#34;&gt;let&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;timer&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;setInterval&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;kd&#34;&gt;function&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(){&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;            &lt;span class=&#34;nx&#34;&gt;i&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;--&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;            &lt;span class=&#34;nx&#34;&gt;btn&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;innerHTML&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;sb&#34;&gt;`aggree(&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;${&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;i&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;sb&#34;&gt;)`&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;            &lt;span class=&#34;k&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;i&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;===&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;){&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                &lt;span class=&#34;nx&#34;&gt;clearInterval&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;timer&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                &lt;span class=&#34;nx&#34;&gt;btn&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;disabled&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;false&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                &lt;span class=&#34;nx&#34;&gt;btn&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;innerHTML&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;aggree&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;            &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;p&#34;&gt;},&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;1000&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;script&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;body&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
     </item>
     <item>
       <title>Control CSS using classList</title>
       <link>http://localhost:1313/posts/operate-style/</link>
       <pubDate>Mon, 25 Dec 2023 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/operate-style/</guid>
-      <description>ClassList can help reduce the redundancy of .style method and resolve the ClassName overwrite risk.
-Sytax:
-// add a class element.classList.add(&amp;#39;className&amp;#39;) // delete a class element.classList.remove(&amp;#39;className&amp;#39;) // switch a class element.classList.toggle(&amp;#39;className&amp;#39;) Example:
-&amp;lt;!DOCTYPE html&amp;gt; &amp;lt;html lang=&amp;#34;en&amp;#34;&amp;gt; &amp;lt;head&amp;gt; &amp;lt;meta charset=&amp;#34;UTF-8&amp;#34;&amp;gt; &amp;lt;meta name=&amp;#34;viewport&amp;#34; content=&amp;#34;width=device-width, initial-scale=1.0&amp;#34;&amp;gt; &amp;lt;title&amp;gt;Document&amp;lt;/title&amp;gt; &amp;lt;style&amp;gt; .box { width: 200px; height: 200px; color: #333; } .active { color: red; background-color: pink; } &amp;lt;/style&amp;gt; &amp;lt;/head&amp;gt; &amp;lt;body&amp;gt; &amp;lt;div class=&amp;#34;box&amp;#34;&amp;gt;text&amp;lt;/div&amp;gt; &amp;lt;script&amp;gt; //get element const box = document.</description>
+      <description>&lt;p&gt;ClassList can help reduce the redundancy of .style method and resolve the ClassName overwrite risk.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Sytax:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;// add a class
+element.classList.add(&amp;#39;className&amp;#39;)
+// delete a class 
+element.classList.remove(&amp;#39;className&amp;#39;)
+// switch a class
+element.classList.toggle(&amp;#39;className&amp;#39;)
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Example:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;&amp;lt;!DOCTYPE html&amp;gt;
+&amp;lt;html lang=&amp;#34;en&amp;#34;&amp;gt;
+&amp;lt;head&amp;gt;
+    &amp;lt;meta charset=&amp;#34;UTF-8&amp;#34;&amp;gt;
+    &amp;lt;meta name=&amp;#34;viewport&amp;#34; content=&amp;#34;width=device-width, initial-scale=1.0&amp;#34;&amp;gt;
+    &amp;lt;title&amp;gt;Document&amp;lt;/title&amp;gt;
+    &amp;lt;style&amp;gt;
+        .box {
+            width: 200px;
+            height: 200px;
+            color: #333;
+        }
+        .active {
+            color: red;
+            background-color: pink;
+        }
+    &amp;lt;/style&amp;gt;
+&amp;lt;/head&amp;gt;
+&amp;lt;body&amp;gt;
+    &amp;lt;div class=&amp;#34;box&amp;#34;&amp;gt;text&amp;lt;/div&amp;gt;
+    &amp;lt;script&amp;gt;
+        //get element
+        const box = document.querySelector(&amp;#39;.box&amp;#39;)
+        //change stylew by adding class
+        box.classList.add(&amp;#39;active&amp;#39;)
+        // delete class
+        box.classList.remove(&amp;#39;active&amp;#39;)
+        //switch class
+        box.classList.toggle(&amp;#39;active&amp;#39;)
+    &amp;lt;/script&amp;gt;
+&amp;lt;/body&amp;gt;
+&amp;lt;/html&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;keep in mind that the running logic of &lt;code&gt;toggle&lt;/code&gt; is run the detect if the class existed in the element, if yes, delete, if no, add up&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>DOM -- Document Object Model</title>
       <link>http://localhost:1313/posts/dom/</link>
       <pubDate>Mon, 25 Dec 2023 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/dom/</guid>
-      <description>DOM query Slect first match element document.querySelector(&amp;#39;css selector&amp;#39;) Slect all match element document.querySelectorAll(&amp;#39;css selector&amp;#39;) return is fake array which no work with push and pop method
-Modification using DOM modify text content &amp;lt;body&amp;gt; &amp;lt;div class=&amp;#34;box&amp;#34;&amp;gt;content&amp;lt;/div&amp;gt; &amp;lt;script&amp;gt; const box = document.querySelector(&amp;#39;.box&amp;#39;) box.innerText = &amp;#39;content changed&amp;#39; box.innerHTML = &amp;#39;&amp;lt;strong&amp;gt;content changed&amp;lt;/strong&amp;gt;&amp;#39; &amp;lt;/script&amp;gt; &amp;lt;/body&amp;gt; innerText method will not parse tags, exp: &amp;lt;strong&amp;gt;hello&amp;lt;/strong&amp;gt; will return &amp;lt;strong&amp;gt;hello&amp;lt;/strong&amp;gt; rather hello</description>
+      <description>&lt;h2 id=&#34;dom-query&#34;&gt;DOM query&lt;/h2&gt;
+&lt;h3 id=&#34;slect-first-match-element&#34;&gt;Slect first match element&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;document&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;querySelector&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;css selector&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;slect-all-match-element&#34;&gt;Slect all match element&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;document&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;querySelectorAll&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;css selector&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;blockquote&gt;
+&lt;p&gt;return is fake array which no work with &lt;code&gt;push&lt;/code&gt; and &lt;code&gt;pop&lt;/code&gt; method&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;modification-using-dom&#34;&gt;Modification using DOM&lt;/h2&gt;
+&lt;h3 id=&#34;modify-text-content&#34;&gt;modify text content&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;body&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;div&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;class&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;box&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;content&lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;div&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;script&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;kr&#34;&gt;const&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;box&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;document&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;querySelector&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;.box&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;nx&#34;&gt;box&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;innerText&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;content changed&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;nx&#34;&gt;box&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;innerHTML&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;  &lt;span class=&#34;s1&#34;&gt;&amp;#39;&amp;lt;strong&amp;gt;content changed&amp;lt;/strong&amp;gt;&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;script&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;body&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;blockquote&gt;
+&lt;p&gt;innerText method will not parse tags, exp: &lt;code&gt;&amp;lt;strong&amp;gt;hello&amp;lt;/strong&amp;gt;&lt;/code&gt; will return &lt;code&gt;&amp;lt;strong&amp;gt;hello&amp;lt;/strong&amp;gt;&lt;/code&gt; rather &lt;strong&gt;hello&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;</description>
     </item>
   </channel>
 </rss>

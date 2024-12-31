@@ -9,7 +9,7 @@
       <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
-    <generator>Hugo -- 0.128.0</generator>
+    <generator>Hugo -- 0.140.2</generator>
     <language>en</language>
     <lastBuildDate>Mon, 01 Jul 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/git/index.xml" rel="self" type="application/rss+xml" />
@@ -18,14 +18,26 @@
       <link>http://localhost:1313/posts/hugowarn/</link>
       <pubDate>Mon, 01 Jul 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/hugowarn/</guid>
-      <description>Warning message: WARN found no layout file for &amp;#34;html&amp;#34; for kind &amp;#34;home&amp;#34;: You should create a template file which matches Hugo Layouts Lookup Rules for this combination. WARN found no layout file for &amp;#34;html&amp;#34; for kind &amp;#34;taxonomy&amp;#34;: You should create a template file which matches Hugo Layouts Lookup Rules for this combination. WARN found no layout file for &amp;#34;html&amp;#34; for kind &amp;#34;section&amp;#34;: You should create a template file which matches Hugo Layouts Lookup Rules for this combination.</description>
+      <description>&lt;h3 id=&#34;warning-message&#34;&gt;Warning message:&lt;/h3&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;WARN  found no layout file for &amp;#34;html&amp;#34; for kind &amp;#34;home&amp;#34;: You should create a template file which matches Hugo Layouts Lookup Rules for this combination.
+WARN  found no layout file for &amp;#34;html&amp;#34; for kind &amp;#34;taxonomy&amp;#34;: You should create a template file which matches Hugo Layouts Lookup Rules for this combination.
+WARN  found no layout file for &amp;#34;html&amp;#34; for kind &amp;#34;section&amp;#34;: You should create a template file which matches Hugo Layouts Lookup Rules for this combination.
+WARN  found no layout file for &amp;#34;html&amp;#34; for kind &amp;#34;page&amp;#34;: You should create a template file which matches Hugo Layouts Lookup Rules for this combination.
+WARN  found no layout file for &amp;#34;html&amp;#34; for layout &amp;#34;archives&amp;#34; for kind &amp;#34;page&amp;#34;: You should create a template file which matches Hugo Layouts Lookup Rules for this combination.
+WARN  found no layout file for &amp;#34;html&amp;#34; for layout &amp;#34;search&amp;#34; for kind &amp;#34;page&amp;#34;: You should create a template file which matches Hugo Layouts Lookup Rules for this combination.
+WARN  found no layout file for &amp;#34;html&amp;#34; for kind &amp;#34;term&amp;#34;: You should create a template file which matches Hugo Layouts Lookup Rules for this combination.
+WARN  found no layout file for &amp;#34;json&amp;#34; for kind &amp;#34;home&amp;#34;: You should create a template file which matches Hugo Layouts Lookup Rules for this combination.
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;This will happen when you reclone repo with git submodule from remote branch and the &lt;code&gt;submodule&lt;/code&gt; not get downloaded as well. In other words, Submodules may not get cloned automatically.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Git classic workflow and merge conflict solution</title>
       <link>http://localhost:1313/posts/git-workflow-conflict/</link>
       <pubDate>Fri, 17 Nov 2023 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/git-workflow-conflict/</guid>
-      <description>Mearge conflict resolution: Edit the confilct file manually and then commit to branch</description>
+      <description>&lt;p&gt;&lt;img alt=&#34;git workflow&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/posts/git-workflow-conflict/git-workflow.png&#34; title=&#34;git workflow&#34;&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Mearge conflict resolution: Edit the confilct file manually and then commit to branch&lt;/p&gt;
+&lt;/blockquote&gt;</description>
     </item>
   </channel>
 </rss>

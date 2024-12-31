@@ -9,7 +9,7 @@
       <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
-    <generator>Hugo -- 0.128.0</generator>
+    <generator>Hugo -- 0.140.2</generator>
     <language>en</language>
     <lastBuildDate>Sat, 22 Oct 2022 23:36:11 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/http/index.xml" rel="self" type="application/rss+xml" />
@@ -18,12 +18,31 @@
       <link>http://localhost:1313/posts/middle_box/</link>
       <pubDate>Sat, 22 Oct 2022 23:36:11 +0000</pubDate>
       <guid>http://localhost:1313/posts/middle_box/</guid>
-      <description>Abstract There is no absolute safe disguise, all protocols have risks of detected.
-Common attack made by middle box Passive analysis (Traffic characteristic, PoC vulnerability) Usually use for plain text protocol or TLS handshake.
-Active analysis Usually use for Shadowsocks, V2Ray, TLS v1.3 (obtian svers&amp;rsquo;s SSL certificate)
-replay package
-Some obvious charecteristics of proxy traffic. Long connection Most HTTP traffic is short connection.
-bidireaction flow 99% of Web traffic(HTTP) is one-way flow, which is a group of request match a group of response, few website use websocket.</description>
+      <description>&lt;h1 id=&#34;abstract&#34;&gt;Abstract&lt;/h1&gt;
+&lt;p&gt;There is no absolute safe disguise, all protocols have risks of detected.&lt;/p&gt;
+&lt;h2 id=&#34;common-attack-made-by-middle-box&#34;&gt;Common attack made by middle box&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Passive analysis (Traffic characteristic, PoC vulnerability)
+Usually use for plain text protocol or TLS handshake.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Active analysis
+Usually use for Shadowsocks, V2Ray, TLS v1.3 (obtian svers&amp;rsquo;s SSL certificate)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;replay package&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;some-obvious-charecteristics-of-proxy-traffic&#34;&gt;Some obvious charecteristics of proxy traffic.&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Long connection
+Most HTTP traffic is short connection.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;bidireaction flow
+99% of Web traffic(HTTP) is one-way flow, which is a group of request match a group of response, few website use websocket.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

@@ -1,6 +1,7 @@
 baseURL: "https://www.mrwblog.com/"
 title: Mr.W's Blog
-paginate: 5
+pagination:
+  pagerSize: 5
 theme: PaperMod
 
 enableRobotsTXT: true
